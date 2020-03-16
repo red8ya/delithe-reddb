@@ -1,0 +1,105 @@
+アークエンジェル:
+  lv: 1
+  rarity: R
+  type: ボス
+  category: 聖
+ラメドエンジェル:
+  lv: 1
+  rarity: N
+  type: ボス
+  category: 聖
+ウィングハーピー:
+  lv: 2
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+フレイルゴブリン:
+  lv: 2
+  rarity: N
+  type: ノーマル
+  category: 人型
+カプリス:
+  lv: 3
+  rarity: N
+  type: ボス
+  category: 魔獣
+レッドワイバーン:
+  lv: 5
+  rarity: R
+  type: ボス
+  category: 竜
+ハーピー:
+  lv: 3
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ゴブリンファイター:
+  lv: 4
+  rarity: N
+  type: ノーマル
+  category: 人型
+ローグ:
+  lv: 3
+  rarity: N
+  type: ノーマル
+  category: 人型
+ウルフ:
+  lv: 4
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ブラデンボロ:
+  lv: 11
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ケライノー:
+  lv: 9
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ボガート:
+  lv: 8
+  rarity: N
+  type: ノーマル
+  category: 人型
+スカイハーピー:
+  lv: 5
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ネツァク:
+  lv: 15
+  rarity: R
+  type: ボス
+  category: 聖
+ワイルドウルフ:
+  lv: 8
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ゴブリン:
+  lv: 8
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ゴブリンリーダー:
+  lv: 11
+  rarity: HN
+  type: ノーマル
+  category: 人型
+バグベア:
+  lv: 13
+  rarity: R
+  type: ボス
+  category: 人型
+ラークハーピー:
+  lv: 8
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+オキュペテー:
+  lv: 11
+  rarity: HN
+  type: ノーマル
+  category: 魔獣

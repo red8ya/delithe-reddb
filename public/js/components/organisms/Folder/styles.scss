@@ -1,0 +1,12 @@
+.folder {
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.content {
+  margin-top: 2px;
+  margin-left: 20px;
+  &.hidden {
+    display: none;
+  }
+}

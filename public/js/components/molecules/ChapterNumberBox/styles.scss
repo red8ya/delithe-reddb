@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  .inner {
+    position: relative;
+    z-index: 999;
+    .number {
+      font-size: x-large;
+      font-style: italic;
+      display: inline-block;
+      margin: 0 2px;
+      position: relative;
+      top: 2px;
+      left: -1px;
+    }
+    &:before {
+      content: "第";
+      font-size: small;
+    }
+    &:after {
+      content: "章";
+      font-size: small;
+    }
+  }
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  z-index: 0;
+}

@@ -1,0 +1,7 @@
+.boxlist {
+  display: flex;
+  flex-direction: column;
+  & > * {
+    margin: 3px 0 0;
+  }
+}
