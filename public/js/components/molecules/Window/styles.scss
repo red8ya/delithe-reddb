@@ -1,13 +1,20 @@
 .container {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .cover {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
     background: rgba(0, 0, 0, 0.8);
     z-index: 9999;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
@@ -16,13 +23,9 @@
   background: #000;
   display: block;
   &.modal {
-    position: fixed;
-    top: 2.5vw;
-    left: 0;
     z-index: 19999;
-    width: 95%;
+    width: 90%;
     max-height: 92vh;
-    margin-left: 2.5%;
     box-sizing: border-box;
     .body {
       margin: 0 -12px;
