@@ -16,7 +16,7 @@ const Window = ({title, isModal, onClose, className, children}) => (
         {children}
       </div>
     </Box>
-    {isModal && <div className={styles.cover}></div>}
+    {isModal && <div onClick={onClose} className={styles.cover}></div>}
   </div>
 );
 
