@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import LayoutBox from '../../molecules/LayoutBox';
 import styles from './styles.scss';
-import arrowUp from '../../../../images/arrow-up.png';
-import arrowDown from '../../../../images/arrow-down.png';
 
 const Folder = ({text, hidden = true, children}) => {
   const [isFolded, setIsFolded] = useState(hidden);
@@ -15,6 +13,9 @@ const Folder = ({text, hidden = true, children}) => {
   if (isFolded) {
     classNames.push(styles.hidden);
   }
+
+  const arrowUp = "/images/arrow-up.png";
+  const arrowDown = "/images/arrow-down.png";
 
   return (
     <div className={styles.folder}>
