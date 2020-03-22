@@ -1,0 +1,24 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 25px;
+  font-size: x-small;
+  text-align: center;
+  color: #888;
+  a, .love {
+    color: #eaa !important;
+  }
+}
+
+.copyright, .enish {
+  margin: 15px 0 25px;
+  padding: 0 10px;
+}
+
+.enish {
+  color: rgba(120, 120, 120, 0.8);
+  a {
+    color: rgba(180, 180, 180, 0.8) !important;
+  }
+}

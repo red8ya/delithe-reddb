@@ -3,4 +3,19 @@ html, body {
   color: #fdfdfd;
   margin: 0;
   font-family: 'M PLUS 1p', 'Noto Sans JP', sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  &:link {
+    color: #F25F5C;
+  }
+  &:visited {
+    color: #F25F5C;
+  }
+  &:hover {
+    color: #FF7B78;
+  }
 }

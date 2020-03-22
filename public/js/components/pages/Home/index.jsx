@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SinglePane from '../../templates/SinglePane';
 import GlobalHeader from '../../atoms/GlobalHeader';
+import GlobalFooter from '../../atoms/GlobalFooter';
 import Stage from '../../molecules/Stage';
 import BoxList from '../../molecules/BoxList';
 import Folder from '../../organisms/Folder';
@@ -31,6 +32,7 @@ const Home = () => {
         chapter={selectedStage[2]}
         episode={selectedStage[1]}
         {...selectedStage[0]} />}
+      <GlobalFooter />
     </SinglePane>
   );
 };
