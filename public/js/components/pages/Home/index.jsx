@@ -6,7 +6,7 @@ import Stage from '../../molecules/Stage';
 import BoxList from '../../molecules/BoxList';
 import Folder from '../../organisms/Folder';
 import StageDetail from '../../organisms/StageDetail';
-import chapters from '../../../data/chapters';
+import chapters from '../../../data/stages/story';
 
 const Home = () => {
   const [selectedStage, setStage] = useState(null);

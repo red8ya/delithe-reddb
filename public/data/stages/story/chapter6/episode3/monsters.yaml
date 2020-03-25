@@ -1,0 +1,55 @@
+スクリームハーピー:
+  lv: 63
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ランドタートル:
+  lv: 63
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ロバー:
+  lv: 63
+  rarity: N
+  type: ノーマル
+  category: 人型
+ハスタリィ:
+  lv: 64
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+シャルマリン:
+  lv: 63
+  rarity: N
+  type: ノーマル
+  category: 聖
+パリッシュ:
+  lv: 63
+  rarity: N
+  type: ノーマル
+  category: 聖
+ロイヤルガード:
+  lv: 63
+  rarity: R
+  type: ボス
+  category: 人型
+ラナリーシェ:
+  lv: 63
+  rarity: R
+  type: ボス
+  category: 人型
+オドントケリス:
+  lv: 64
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ハリケーンハーピー:
+  lv: 64
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ラーズ:
+  lv: 64
+  rarity: HR
+  type: ボス
+  category: 人型

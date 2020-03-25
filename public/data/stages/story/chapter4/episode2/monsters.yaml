@@ -1,0 +1,80 @@
+スカルソルジャー:
+  lv: 33
+  rarity: N
+  type: ノーマル
+  category: 魔
+イビルゴブリン:
+  lv: 33
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ピリオド:
+  lv: 33
+  rarity: N
+  type: ノーマル
+  category: 魔
+グルーミー:
+  lv: 33
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ラーズ:
+  lv: 34
+  rarity: R
+  type: ボス
+  category: 人型
+ハンガースケルトン:
+  lv: 34
+  rarity: N
+  type: ノーマル
+  category: 魔
+天狼兵団・重装兵:
+  lv: 34
+  rarity: HN
+  type: ノーマル
+  category: 人型
+天狼兵団・守護隊長:
+  lv: 34
+  rarity: HN
+  type: ノーマル
+  category: 人型
+天狼兵団・呪術兵:
+  lv: 34
+  rarity: N
+  type: ノーマル
+  category: 人型
+天狼兵団・呪術隊長:
+  lv: 34
+  rarity: N
+  type: ノーマル
+  category: 人型
+レッサーバンパイア:
+  lv: 34
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ヴラド:
+  lv: 35
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ブッシュウルフ:
+  lv: 35
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+マッドゴブリン:
+  lv: 35
+  rarity: N
+  type: ノーマル
+  category: 人型
+カニス:
+  lv: 35
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+コバロス:
+  lv: 35
+  rarity: N
+  type: ノーマル
+  category: 人型

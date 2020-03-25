@@ -1,0 +1,70 @@
+プルゥ:
+  lv: 15
+  rarity: HN
+  type: ノーマル
+  category: 魔
+マイアリザード:
+  lv: 15
+  rarity: N
+  type: ノーマル
+  category: 竜
+ネクローシス:
+  lv: 15
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ペブル:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 竜
+アシッドプルゥ:
+  lv: 15
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ケイブプルゥ:
+  lv: 16
+  rarity: N
+  type: ノーマル
+  category: 魔
+ブラックゴブリン:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 人型
+スティンク:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 人型
+蟲毒のバルボア:
+  lv: 16
+  rarity: R
+  type: ボス
+  category: 人型
+ポイズンプルゥ:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ダイアウルフ:
+  lv: 16
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ショゴス:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+サンドリザード:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ウプウアウト:
+  lv: 16
+  rarity: N
+  type: ノーマル
+  category: 魔獣

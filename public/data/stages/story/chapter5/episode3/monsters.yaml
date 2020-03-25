@@ -1,0 +1,45 @@
+マリン:
+  lv: 49
+  rarity: N
+  type: ノーマル
+  category: 聖
+スパイクタートル:
+  lv: 49
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+マリンプルゥ:
+  lv: 49
+  rarity: N
+  type: ノーマル
+  category: 魔
+ヘヴィリザード:
+  lv: 50
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ラブル:
+  lv: 50
+  rarity: HN
+  type: ノーマル
+  category: 竜
+削剥のベニチオ:
+  lv: 50
+  rarity: R
+  type: ボス
+  category: 人型
+ハゥフル:
+  lv: 50
+  rarity: N
+  type: ノーマル
+  category: 聖
+ラーズ:
+  lv: 51
+  rarity: R
+  type: ボス
+  category: 人型
+マグニス:
+  lv: 51
+  rarity: HR
+  type: ボス
+  category: 人型

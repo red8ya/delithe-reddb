@@ -1,0 +1,65 @@
+ブラックゴブリン:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 人型
+サンドリザード:
+  lv: 16
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ファインハーピー:
+  lv: 17
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+レヴァリー:
+  lv: 18
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+デザートゴブリン:
+  lv: 17
+  rarity: N
+  type: ノーマル
+  category: 人型
+クエーサー:
+  lv: 17
+  rarity: HN
+  type: ノーマル
+  category: 竜
+アックスリザード:
+  lv: 17
+  rarity: HN
+  type: ノーマル
+  category: 竜
+リトルピクシー:
+  lv: 17
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ゴブリンウォリアー:
+  lv: 18
+  rarity: N
+  type: ノーマル
+  category: 人型
+レッサーワイバーン:
+  lv: 18
+  rarity: N
+  type: ノーマル
+  category: 竜
+レイクピクシー:
+  lv: 18
+  rarity: HN
+  type: ノーマル
+  category: 聖
+シーナリー:
+  lv: 18
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ウィルム:
+  lv: 18
+  rarity: HR
+  type: ボス
+  category: 竜

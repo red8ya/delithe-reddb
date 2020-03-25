@@ -1,0 +1,65 @@
+フラワーウルフ:
+  lv: 24
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ゴブリンソルジャー:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 人型
+ヴェレーノ:
+  lv: 24
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+グレイトオーク:
+  lv: 26
+  rarity: HN
+  type: ノーマル
+  category: 人型
+バグベア:
+  lv: 27
+  rarity: R
+  type: ボス
+  category: 人型
+ケントゥリア:
+  lv: 26
+  rarity: HN
+  type: ノーマル
+  category: 人型
+アサルトウルフ:
+  lv: 27
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+クドラク:
+  lv: 28
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ホブゴブリン:
+  lv: 27
+  rarity: N
+  type: ノーマル
+  category: 人型
+リベルテ:
+  lv: 28
+  rarity: R
+  type: ボス
+  category: 魔獣
+サベッジウルフ:
+  lv: 28
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+スリック:
+  lv: 28
+  rarity: N
+  type: ノーマル
+  category: 人型
+雷王ガルーダ:
+  lv: 29
+  rarity: HR
+  type: ボス
+  category: 聖

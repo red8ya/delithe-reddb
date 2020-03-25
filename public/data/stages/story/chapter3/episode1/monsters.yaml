@@ -1,0 +1,55 @@
+エンジェル:
+  lv: 21
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ホワイトハーピー:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 聖
+イオフィエル:
+  lv: 21
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ヴァイスハーピー:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+フォレストウルフ:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ゴブリンソルジャー:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 人型
+オークガーダー:
+  lv: 22
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ヴェレーノ:
+  lv: 24
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ウッドゴーレム:
+  lv: 22
+  rarity: R
+  type: ボス
+  category: 魔
+ケントゥリア:
+  lv: 26
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ハイワイマン:
+  lv: 23
+  rarity: N
+  type: ノーマル
+  category: 人型

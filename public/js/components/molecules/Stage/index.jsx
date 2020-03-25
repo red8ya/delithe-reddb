@@ -2,12 +2,11 @@ import React from 'react';
 import LayoutBox from '../LayoutBox';
 import Boss from '../../atoms/Boss';
 import Lv from '../../atoms/Lv';
-import allMonsters from '../../../../data/monsters.yaml';
 import styles from './styles.scss';
 
 const Stage = ({name, cp, monsters, items, onClick}) => {
-  const hasBoss = monsters.find(name => allMonsters[name].type === 'ボス');
-  const lowestLv = Math.min(...monsters.map(name => allMonsters[name].lv));
+  const hasBoss = monsters.find(monster => monster.type === 'ボス');
+  const lowestLv = Math.min(...monsters.map(monster => monster.lv));
   return (
     <LayoutBox onClick={onClick}>
       {name}

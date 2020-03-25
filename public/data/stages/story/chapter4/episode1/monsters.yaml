@@ -1,0 +1,50 @@
+マグニス:
+  lv: 31
+  rarity: R
+  type: ボス
+  category: 人型
+ヴェノムプルゥ:
+  lv: 31
+  rarity: HN
+  type: ノーマル
+  category: 魔
+天狼兵団・剣兵:
+  lv: 31
+  rarity: N
+  type: ノーマル
+  category: 人型
+グーイー:
+  lv: 31
+  rarity: HN
+  type: ノーマル
+  category: 魔
+天狼兵団・魔導兵:
+  lv: 32
+  rarity: N
+  type: ノーマル
+  category: 人型
+エニカウスケルトン:
+  lv: 32
+  rarity: N
+  type: ノーマル
+  category: 魔
+天狼兵団・剣兵隊長:
+  lv: 32
+  rarity: N
+  type: ノーマル
+  category: 人型
+フィジープルゥ:
+  lv: 32
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ドラキュラ:
+  lv: 33
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ストリゴイ:
+  lv: 33
+  rarity: HN
+  type: ノーマル
+  category: 魔

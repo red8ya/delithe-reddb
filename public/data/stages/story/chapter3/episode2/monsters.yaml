@@ -1,0 +1,45 @@
+ショウルワイバーン:
+  lv: 23
+  rarity: HN
+  type: ノーマル
+  category: 竜
+モーデルプルゥ:
+  lv: 23
+  rarity: N
+  type: ノーマル
+  category: 魔
+ファブラス:
+  lv: 25
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ニードルタートル:
+  lv: 23
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+マクロケリス:
+  lv: 24
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ゴブリンソルジャー:
+  lv: 21
+  rarity: N
+  type: ノーマル
+  category: 人型
+フラワーウルフ:
+  lv: 24
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ガルフワイバーン:
+  lv: 25
+  rarity: HN
+  type: ノーマル
+  category: 竜
+オオヒルメムチ:
+  lv: 26
+  rarity: R
+  type: ボス
+  category: 人型

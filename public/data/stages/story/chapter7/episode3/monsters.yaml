@@ -1,0 +1,80 @@
+シャドウウルフ:
+  lv: 72
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+天狼兵団・強襲兵:
+  lv: 72
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ジェヴォーダン:
+  lv: 73
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+天狼兵団・強襲隊長:
+  lv: 74
+  rarity: N
+  type: ノーマル
+  category: 人型
+天狼兵団・妖術兵:
+  lv: 72
+  rarity: N
+  type: ノーマル
+  category: 人型
+サウロ:
+  lv: 72
+  rarity: HR
+  type: ボス
+  category: 人型
+天狼兵団・妖術隊長:
+  lv: 72
+  rarity: N
+  type: ノーマル
+  category: 人型
+グラッジデーモン:
+  lv: 73
+  rarity: N
+  type: ノーマル
+  category: 魔
+ダークウルフ:
+  lv: 73
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+鋸牙のデズモンド:
+  lv: 73
+  rarity: R
+  type: ボス
+  category: 人型
+天狼兵団・精鋭兵:
+  lv: 74
+  rarity: HN
+  type: ノーマル
+  category: 人型
+天狼兵団・精鋭隊長:
+  lv: 74
+  rarity: N
+  type: ノーマル
+  category: 人型
+サドゥデーモン:
+  lv: 74
+  rarity: N
+  type: ノーマル
+  category: 魔
+天狼兵団・神秘兵:
+  lv: 74
+  rarity: N
+  type: ノーマル
+  category: 人型
+ルシファー:
+  lv: 78
+  rarity: SR
+  type: ボス
+  category: 聖
+ラーズ:
+  lv: 78
+  rarity: HR
+  type: ボス
+  category: 人型

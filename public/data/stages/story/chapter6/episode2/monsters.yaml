@@ -1,0 +1,175 @@
+マリンリザード:
+  lv: 56
+  rarity: N
+  type: ノーマル
+  category: 竜
+バーグラー:
+  lv: 56
+  rarity: N
+  type: ノーマル
+  category: 人型
+バブルマーメイド:
+  lv: 56
+  rarity: N
+  type: ノーマル
+  category: 聖
+アブリゲイト:
+  lv: 57
+  rarity: N
+  type: ノーマル
+  category: 竜
+ロックタートル:
+  lv: 57
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+トゥリクル:
+  lv: 56
+  rarity: N
+  type: ノーマル
+  category: 聖
+フロウリザード:
+  lv: 57
+  rarity: N
+  type: ノーマル
+  category: 竜
+メイオラニア:
+  lv: 57
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+シャープパンサー:
+  lv: 57
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+カラカル:
+  lv: 58
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+プラントウルフ:
+  lv: 58
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+バンデッドオーク:
+  lv: 58
+  rarity: N
+  type: ノーマル
+  category: 人型
+クライムゴブリン:
+  lv: 58
+  rarity: HN
+  type: ノーマル
+  category: 人型
+サーベルタイガー:
+  lv: 58
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+レオナール:
+  lv: 59
+  rarity: HN
+  type: ノーマル
+  category: 魔
+フォビア:
+  lv: 58
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+マンテイア:
+  lv: 59
+  rarity: HN
+  type: ノーマル
+  category: 魔
+アクアニンフ:
+  lv: 59
+  rarity: N
+  type: ノーマル
+  category: 聖
+ヒュージゴーレム:
+  lv: 59
+  rarity: N
+  type: ノーマル
+  category: 魔
+レイクマーメイド:
+  lv: 59
+  rarity: N
+  type: ノーマル
+  category: 聖
+メロウ:
+  lv: 59
+  rarity: N
+  type: ノーマル
+  category: 聖
+ホロウバンパイア:
+  lv: 61
+  rarity: N
+  type: ノーマル
+  category: 魔
+ノーマッド:
+  lv: 59
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ネグロハーピー:
+  lv: 60
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+サキュバス:
+  lv: 60
+  rarity: N
+  type: ノーマル
+  category: 魔
+カプリース:
+  lv: 60
+  rarity: N
+  type: ノーマル
+  category: 魔
+フロウメロウ:
+  lv: 60
+  rarity: N
+  type: ノーマル
+  category: 聖
+ナイトウルフ:
+  lv: 62
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+バスターリザード:
+  lv: 62
+  rarity: N
+  type: ノーマル
+  category: 竜
+バド:
+  lv: 46
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ワイルドゴブリン:
+  lv: 62
+  rarity: N
+  type: ノーマル
+  category: 人型
+コラプス:
+  lv: 62
+  rarity: N
+  type: ノーマル
+  category: 人型
+ブロックゴーレム:
+  lv: 62
+  rarity: R
+  type: ボス
+  category: 魔
+マルトリート:
+  lv: 62
+  rarity: N
+  type: ノーマル
+  category: 竜
+ムーンウルフ:
+  lv: 62
+  rarity: HN
+  type: ノーマル
+  category: 魔獣

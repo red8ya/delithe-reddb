@@ -1,0 +1,55 @@
+ピクシー:
+  lv: 13
+  rarity: HN
+  type: ノーマル
+  category: 聖
+グレイハーピー:
+  lv: 13
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+アエロー:
+  lv: 13
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+サウロ:
+  lv: 13
+  rarity: R
+  type: ボス
+  category: 人型
+パックル:
+  lv: 14
+  rarity: HN
+  type: ノーマル
+  category: 聖
+トビー:
+  lv: 13
+  rarity: R
+  type: ボス
+  category: 魔獣
+ブルーウルフ:
+  lv: 14
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ワヒーラ:
+  lv: 14
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+フラワーピクシー:
+  lv: 14
+  rarity: HN
+  type: ノーマル
+  category: 聖
+キース:
+  lv: 14
+  rarity: R
+  type: ボス
+  category: 魔獣
+ダープル:
+  lv: 15
+  rarity: R
+  type: ボス
+  category: 魔獣

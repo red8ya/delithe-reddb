@@ -1,0 +1,75 @@
+ラピッドシルフ:
+  lv: 65
+  rarity: N
+  type: ノーマル
+  category: 聖
+グラスゴーレム:
+  lv: 65
+  rarity: N
+  type: ノーマル
+  category: 魔
+チキットリザード:
+  lv: 65
+  rarity: N
+  type: ノーマル
+  category: 竜
+マーシュ:
+  lv: 66
+  rarity: N
+  type: ノーマル
+  category: 竜
+キラーゴブリン:
+  lv: 66
+  rarity: N
+  type: ノーマル
+  category: 人型
+ブルームフェアリー:
+  lv: 66
+  rarity: N
+  type: ノーマル
+  category: 聖
+狡猾のハンニバル:
+  lv: 67
+  rarity: R
+  type: ノーマル # ?
+  category: 竜
+イルネスハーピー:
+  lv: 67
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ジェノア:
+  lv: 67
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ダジョンリザード:
+  lv: 68
+  rarity: N
+  type: ノーマル
+  category: 竜
+フラントスケルトン:
+  lv: 68
+  rarity: N
+  type: ノーマル
+  category: 魔
+ノートリアス:
+  lv: 68
+  rarity: N
+  type: ノーマル
+  category: 魔
+ゴーストナイト:
+  lv: 68
+  rarity: N
+  type: ノーマル
+  category: 魔
+ギラライトゴーレム:
+  lv: 69
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ホライズン:
+  lv: 69
+  rarity: HN
+  type: ノーマル
+  category: 魔

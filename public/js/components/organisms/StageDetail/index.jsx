@@ -4,13 +4,12 @@ import Lv from '../../atoms/Lv';
 import Cp from '../../atoms/Cp';
 import Window from '../../molecules/Window';
 import ChapterNumberBox from '../../molecules/ChapterNumberBox';
-import allMonsters from '../../../../data/monsters.yaml';
 import styles from './styles.scss';
 
 const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onClose}) => {
-  const hasBoss = monsters.find(name => allMonsters[name].type === 'ボス');
-  const lowestLv = Math.min(...monsters.map(name => allMonsters[name].lv));
-  const highestLv = Math.max(...monsters.map(name => allMonsters[name].lv));
+  const hasBoss = monsters.find(monster => monster.type === 'ボス');
+  const lowestLv = Math.min(...monsters.map(monster => monster.lv));
+  const highestLv = Math.max(...monsters.map(monster => monster.lv));
   return (
     <Window title={`${'\u00A0'.repeat(9)}${episode.name} ${name}`} isModal={true} onClose={onClose}>
       <div className={styles.chapter}>
@@ -27,8 +26,8 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onC
       <div className={styles.layoutContainer}>
         <div className={styles.monsters}>
           <Header>出現モンスター</Header>
-          {monsters.map(name => {
-            const {lv, category, type} = allMonsters[name];
+          {monsters.map(monster => {
+            const {name, lv, category, type} = monster;
             return (
               <div key={name}>
                 <span>{name}</span> <Lv value={lv} /> ({category}{type})
