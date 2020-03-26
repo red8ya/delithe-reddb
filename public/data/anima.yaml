@@ -1,0 +1,300 @@
+- name: 王立騎士団
+  pages:
+    - name: 1章
+      anima:
+        - name: ブラデンボロ
+          status: 俊敏
+        - name: ゴブリンリーダー
+          status: 物攻
+        - name: ケライノー
+          status: 回避
+        - name: オキュペテー
+          status: 回避
+        - name: ボガート
+          status: 物攻
+- name: 不死身の傭兵
+  pages:
+    - name: 2章-1
+      anima:
+        - name: ショゴス
+          status: MP
+        - name: ウプウアウト
+          status: 俊敏
+    - name: 2章-2
+      anima:
+        - name: シーナリー
+          status: 回魔
+        - name: パックル
+          status: 回魔
+        - name: アエロー
+          status: 回避
+        - name: ワヒーラ
+          status: 俊敏
+        - name: ネクローシス
+          status: MP
+        - name: ペブル
+          status: 命中
+    - name: 2章-3
+      anima:
+        - name: スティンク
+          status: 物攻
+        - name: レヴァリー
+          status: 回避
+        - name: クエーサー
+          status: 命中
+- name: 第一魔境郡
+  pages:
+    - name: クムラバン地下水道
+      anima:
+        - name: スウィージリザード
+          status: 命中
+        - name: インフェリアー
+          status: 会心
+        - name: ヴィガー
+          status: MP
+        - name: ブラスフェミー
+          status: 物攻
+        - name: グライゼン
+          status: 魔防
+        - name: ヴィラン
+          status: 俊敏
+- name: はぐれ者たち
+  pages:
+    - name: 3章-1
+      anima:
+        - name: マクロケリス
+          status: 物防
+        - name: ファブラス
+          status: 会心
+        - name: スリック
+          status: 物攻
+        - name: クドラク
+          status: 俊敏
+    - name: 3章-2
+      anima:
+        - name: イオフィエル
+          status: HP
+        - name: ヴァイスハーピー
+          status: 回避
+        - name: ケントゥリア
+          status: 物防
+        - name: ヴェレーノ
+          status: 俊敏
+- name: それぞれの思い出
+  pages:
+    - name: 4章-1
+      anima:
+        - name: ピリオド
+          status: 会心
+        - name: グルーミー
+          status: 物攻
+        - name: 天狼兵団・剣兵隊長
+          status: 魔防
+        - name: グーイー
+          status: MP
+        - name: ストリゴイ
+          status: HP
+    - name: 4章-2
+      anima:
+        - name: ヴラド
+          status: HP
+        - name: 天狼兵団・呪術隊長
+          status: 魔攻
+        - name: 天狼兵団・守護隊長
+          status: 魔防
+        - name: コバロス
+          status: 物攻
+        - name: カニス
+          status: 俊敏
+    - name: 4章-3
+      anima:
+        - name: バーリオル
+          status: 会心
+        - name: カーマイン
+          status: 命中
+        - name: グルーティ
+          status: 物防
+        - name: リナンシー
+          status: 回魔
+        - name: スティクス
+          status: 命中
+- name: 第二魔境郡
+  pages:
+    - name: エニカウ地下神殿
+      anima:
+        - name: パーパス
+          status: 魔防
+        - name: ギシンゲ
+          status: 俊敏
+        - name: ミュカス
+          status: MP
+        - name: ヴェイン
+          status: HP
+        - name: ヴァレイシャン
+          status: 物防
+        - name: パースター
+          status: 魔攻
+    - name: ルシロスピラミッド
+      anima:
+        - name: ヒーザン
+          status: 会心
+        - name: ドラウグル
+          status: 魔攻
+        - name: カタトニア
+          status: HP
+        - name: マスティマ
+          status: 魔防
+        - name: オルクス
+          status: 物攻
+- name: 祈りの代償
+  pages:
+    - name: 5章-1
+      anima:
+        - name: ネザーゲイル
+          status: 回避
+        - name: フォンテーヌ
+          status: 回魔
+        - name: トレンブル
+          status: 会心
+    - name: 5章-2
+      anima:
+        - name: ハマク
+          status: 物防
+        - name: メガリス
+          status: 物攻
+        - name: スペックル
+          status: 俊敏
+        - name: ヴォミット
+          status: 物攻
+        - name: ラブル
+          status: 命中
+- name: 第三魔境郡
+  pages:
+    - name: 菌糸の洞窟
+      anima:
+        - name: フューネラル
+          status: 会心
+        - name: ハイファ
+          status: MP
+        - name: テウルギア
+          status: 物攻
+        - name: フィリサ
+          status: 回避
+        - name: タイタニック
+          status: 物防
+        - name: フリージア
+          status: 回魔
+    - name: シュハマの社
+      anima:
+        - name: アマルフィ
+          status: 回魔
+        - name: シュライン
+          status: 命中
+        - name: フェロウシャス
+          status: 物攻
+        - name: ラプチャー
+          status: MP
+        - name: ジルズ
+          status: 魔防
+        - name: ルーナサー
+          status: 会心
+- name: 騎士たちの足跡
+  pages:
+    - name: 6章-1
+      anima:
+        - name: ダークストーカー
+          status: HP
+        - name: リッチロード
+          status: 魔攻
+        - name: アウスグス
+          status: 魔防
+        - name: メイオラニア
+          status: 物防
+        - name: カラカル
+          status: 俊敏
+        - name: トゥリクル
+          status: 回魔
+        - name: アブリゲイト
+          status: 命中
+    - name: 6章-2
+      anima:
+        - name: フォビア
+          status: 俊敏
+        - name: マンテイア
+          status: 会心
+        - name: カプリース
+          status: MP
+        - name: ノーマッド
+          status: 回避
+    - name: 6章-3
+      anima:
+        - name: オドントケリス
+          status: 物防
+        - name: パリッシュ
+          status: 回魔
+        - name: ハスタリィ
+          status: 回避
+        - name: バド
+          status: 俊敏
+        - name: コラプス
+          status: 物攻
+        - name: マルトリート
+          status: 命中
+- name: 120年目の真実
+  pages:
+    - name: 7章-1
+      anima:
+        - name: ジェノア
+          status: 回避
+        - name: マーシュ
+          status: 命中
+        - name: ゴーストナイト
+          status: 会心
+        - name: ホライズン
+          status: 物防
+    - name: 7章-2
+      anima:
+        - name: ホルンフェルス
+          status: 魔防
+        - name: 天狼兵団・妖術隊長
+          status: 魔攻
+        - name: 天狼兵団・強襲隊長
+          status: 魔防
+        - name: ジェヴォーダン
+          status: 俊敏
+        - name: フォビドン
+          status: 魔攻
+        - name: スマラグドゥス
+          status: 命中
+- name: ギルドダンジョン
+  pages:
+    - name: ギルドダンジョン
+      anima:
+        - name: パズズ
+          status:
+            - 物防
+            - 魔防
+        - name: ニーズヘッグ
+          status: 会心
+- name: 英雄の秘録
+  pages:
+    - name: 英雄の秘録
+      anima:
+        - name: 刻削のベニチオ
+          status: HP
+        - name: ドラゴンゾンビ
+          status: 物攻
+- name: 終焉の神々
+  pages:
+    - name: 終焉の神々
+      anima:
+        - name: 憤怒のグラムリース
+          status:
+            - HP
+            - 物攻
+            - 命中
+        - name: 色欲のモーゼル
+          status:
+            - MP
+            - 魔攻
+            - 回避

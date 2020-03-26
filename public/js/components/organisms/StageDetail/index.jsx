@@ -4,6 +4,7 @@ import Lv from '../../atoms/Lv';
 import Cp from '../../atoms/Cp';
 import Window from '../../molecules/Window';
 import ChapterNumberBox from '../../molecules/ChapterNumberBox';
+import { findAnimaByName } from '../../../data/anima';
 import styles from './styles.scss';
 
 const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onClose}) => {
@@ -39,11 +40,14 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onC
         </div>
         <div className={styles.items}>
           <Header>報酬</Header>
-          {items.map(name => (
-            <div key={name}>
-              <span>{name}</span>
-            </div>
-          ))}
+          {items.map(name => {
+            const anima = findAnimaByName(name);
+            return (
+              <div key={name}>
+                <span>{name}{anima ? ` (${anima.status})` : ''}</span>
+              </div>
+            );
+          })}
         </div>
       </div>
     </Window>
