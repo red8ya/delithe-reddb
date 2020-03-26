@@ -1,0 +1,354 @@
+# クムラバン地下水道
+シェイドゴブリン:
+  lv: 20
+  rarity: N
+  type: エリート
+  category: 人型
+メイズリザード:
+  lv: 20
+  rarity: R
+  type: エリート
+  category: 竜
+スウィージリザード:
+  lv: 20
+  rarity: R
+  type: エリート
+  category: 竜
+ヒジュラスケルトン:
+  lv: 24
+  rarity: R
+  type: エリート
+  category: 魔
+ドラウンプルゥ:
+  lv: 24
+  rarity: R
+  type: エリート
+  category: 魔
+ヴィガー:
+  lv: 24
+  rarity: R
+  type: エリート
+  category: 魔
+インフェリアー:
+  lv: 24
+  rarity: R
+  type: エリート
+  category: 魔
+ダスクゴブリン:
+  lv: 30
+  rarity: R
+  type: エリート
+  category: 人型
+ペリルリザード:
+  lv: 30
+  rarity: N
+  type: エリート
+  category: 竜
+ブラスフェミー:
+  lv: 30
+  rarity: R
+  type: エリート
+  category: 人型
+ブロンズガーゴイル:
+  lv: 34
+  rarity: R
+  type: エリート
+  category: 魔
+シーフ:
+  lv: 34
+  rarity: R
+  type: エリート
+  category: 人型
+グライゼン:
+  lv: 34
+  rarity: R
+  type: エリート
+  category: 魔
+ヴィラン:
+  lv: 34
+  rarity: R
+  type: エリート
+  category: 人型
+
+# エニカウ地下神殿
+レイダー:
+  lv: 35
+  rarity: R
+  type: エリート
+  category: 人型
+ドレッドウルフ:
+  lv: 35
+  rarity: R
+  type: エリート
+  category: 魔獣
+パーパス:
+  lv: 35
+  rarity: R
+  type: エリート
+  category: 人型
+ギシンゲ:
+  lv: 35
+  rarity: R
+  type: エリート
+  category: 魔獣
+カライドゴブリン:
+  lv: 39
+  rarity: N
+  type: エリート
+  category: 人型
+カオスプルゥ:
+  lv: 39
+  rarity: R
+  type: エリート
+  category: 魔
+ミュカス:
+  lv: 39
+  rarity: R
+  type: エリート
+  category: 魔
+ソウルバンパイア:
+  lv: 43
+  rarity: R
+  type: エリート
+  category: 魔
+ジオゴーレム:
+  lv: 43
+  rarity: R
+  type: エリート
+  category: 魔
+ヴェイン:
+  lv: 43
+  rarity: R
+  type: エリート
+  category: 魔
+ヴァレイシャン:
+  lv: 43
+  rarity: R
+  type: エリート
+  category: 魔
+トイスケルトン:
+  lv: 48
+  rarity: N
+  type: エリート
+  category: 人型
+ジオマンサー:
+  lv: 48
+  rarity: R
+  type: エリート
+  category: 人型
+パースター:
+  lv: 48
+  rarity: R
+  type: エリート
+  category: 人型
+
+# ルシロス・ピラミッド
+アーミースケルトン:
+  lv: 50
+  rarity: N
+  type: エリート
+  category: 魔
+ナハトバフォメット:
+  lv: 50
+  rarity: R
+  type: エリート
+  category: 魔
+ヒーザン:
+  lv: 50
+  rarity: R
+  type: エリート
+  category: 魔
+ルーインスケルトン:
+  lv: 56
+  rarity: N
+  type: エリート
+  category: 魔
+カースドリッチ:
+  lv: 56
+  rarity: R
+  type: エリート
+  category: 魔
+ドラウグル:
+  lv: 56
+  rarity: R
+  type: エリート
+  category: 魔
+グリットガーゴイル:
+  lv: 61
+  rarity: R
+  type: エリート
+  category: 魔
+キャラスバンパイア:
+  lv: 61
+  rarity: R
+  type: エリート
+  category: 魔
+カタトニア:
+  lv: 61
+  rarity: R
+  type: エリート
+  category: 魔
+マスティマ:
+  lv: 61
+  rarity: R
+  type: エリート
+  category: 魔
+コンジャラー:
+  lv: 65
+  rarity: N
+  type: エリート
+  category: 人型
+ナレッジデーモン:
+  lv: 65
+  rarity: N
+  type: エリート
+  category: 魔
+オルクス:
+  lv: 65
+  rarity: N
+  type: エリート
+  category: 魔
+
+# 菌糸の洞窟
+モウルドプルゥ:
+  lv: 65
+  rarity: R
+  type: エリート
+  category: 魔
+グラトゥスケルトン:
+  lv: 65
+  rarity: R
+  type: エリート
+  category: 魔
+フューネラル:
+  lv: 65
+  rarity: R
+  type: エリート
+  category: 魔
+ハイファ:
+  lv: 65
+  rarity: R
+  type: エリート
+  category: 魔
+サウムハーピー:
+  lv: 69
+  rarity: R
+  type: エリート
+  category: 魔獣
+シャドウデーモン:
+  lv: 69
+  rarity: R
+  type: エリート
+  category: 魔獣
+テウルギア:
+  lv: 69
+  rarity: R
+  type: エリート
+  category: 魔獣
+フィリサ:
+  lv: 69
+  rarity: R
+  type: エリート
+  category: 魔獣
+オーヴァルオーク:
+  lv: 73
+  rarity: R
+  type: エリート
+  category: 人型
+ミッシングゴブリン:
+  lv: 73
+  rarity: N
+  type: エリート
+  category: 人型
+タイタニック:
+  lv: 73
+  rarity: R
+  type: エリート
+  category: 人型
+ポレンフェアリー:
+  lv: 78
+  rarity: R
+  type: エリート
+  category: 聖
+ペルポックゴーレム:
+  lv: 78
+  rarity: N
+  type: エリート
+  category: 魔
+フリージア:
+  lv: 78
+  rarity: R
+  type: エリート
+  category: 聖
+
+# シュハマの社
+クライシスリザード:
+  lv: 80
+  rarity: R
+  type: エリート
+  category: 竜
+リーフマーメイド:
+  lv: 80
+  rarity: R
+  type: エリート
+  category: 聖
+アマルフィ:
+  lv: 80
+  rarity: R
+  type: エリート
+  category: 聖
+シュライン:
+  lv: 80
+  rarity: R
+  type: エリート
+  category: 竜
+ディザーバンパイア:
+  lv: 86
+  rarity: N
+  type: エリート
+  category: 魔
+アストラルデーモン:
+  lv: 86
+  rarity: R
+  type: エリート
+  category: 魔
+フェロウシャス:
+  lv: 86
+  rarity: R
+  type: エリート
+  category: 魔
+スカンドラル:
+  lv: 91
+  rarity: N
+  type: エリート
+  category: 人型
+グルーブサキュバス:
+  lv: 91
+  rarity: R
+  type: エリート
+  category: 魔
+ラプチャー:
+  lv: 91
+  rarity: R
+  type: エリート
+  category: 魔
+ヘクトバフォメット:
+  lv: 97
+  rarity: R
+  type: エリート
+  category: 魔
+マーブルガーゴイル:
+  lv: 97
+  rarity: R
+  type: エリート
+  category: 魔
+ジルズ:
+  lv: 97
+  rarity: R
+  type: エリート
+  category: 魔
+ルーナサー:
+  lv: 97
+  rarity: R
+  type: エリート
+  category: 魔

@@ -7,6 +7,7 @@ import BoxList from '../../molecules/BoxList';
 import Folder from '../../organisms/Folder';
 import StageDetail from '../../organisms/StageDetail';
 import chapters from '../../../data/stages/story';
+import abyss from '../../../data/stages/abyss';
 
 const Home = () => {
   const [selectedStage, setStage] = useState(null);
@@ -28,6 +29,19 @@ const Home = () => {
           </BoxList>
         </Folder>
       ))}
+      <Folder key="abyss" text="深淵の魔境">
+        <BoxList>
+          {abyss.map((location, i) => (
+            <Folder key={location.name} text={location.name}>
+              <BoxList>
+                {location.stages.map(stage => (
+                  <Stage key={stage.name} onClick={() => setStage([stage, location, null])} {...stage} />
+                ))}
+              </BoxList>
+            </Folder>
+          ))}
+        </BoxList>
+      </Folder>
       {selectedStage && <StageDetail onClose={() => setStage(null)}
         chapter={selectedStage[2]}
         episode={selectedStage[1]}

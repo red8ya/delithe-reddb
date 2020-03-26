@@ -11,10 +11,12 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onC
   const lowestLv = Math.min(...monsters.map(monster => monster.lv));
   const highestLv = Math.max(...monsters.map(monster => monster.lv));
   return (
-    <Window title={`${'\u00A0'.repeat(9)}${episode.name} ${name}`} isModal={true} onClose={onClose}>
-      <div className={styles.chapter}>
-        <ChapterNumberBox number={chapter} />
-      </div>
+    <Window title={`${chapter ? '\u00A0'.repeat(9) : ''}${episode.name} ${name}`} isModal={true} onClose={onClose}>
+      {chapter && (
+        <div className={styles.chapter}>
+          <ChapterNumberBox number={chapter} />
+        </div>
+      )}
       <div className={styles.layoutContainer}>
         <div className={styles.cp}>
           推奨戦闘力 <Cp value={cp} />
