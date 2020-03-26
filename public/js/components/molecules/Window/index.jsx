@@ -3,8 +3,8 @@ import Box from '../../atoms/Box';
 import X from '../../atoms/X';
 import styles from './styles.scss';
 
-const Window = ({title, isModal, onClose, className, children}) => (
-  <div className={`${styles.container} ${className || ''}`}>
+const Window = ({title, isModal, isOpen = true, onClose, className, children}) => (
+  <div className={`${styles.container} ${isOpen ? '' : styles.hidden} ${className || ''}`}>
     <Box className={`${styles.window} ${isModal && styles.modal}`}>
       <div className={styles.title}>
         {title}

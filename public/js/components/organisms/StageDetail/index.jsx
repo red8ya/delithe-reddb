@@ -7,12 +7,12 @@ import ChapterNumberBox from '../../molecules/ChapterNumberBox';
 import { findAnimaByName } from '../../../data/anima';
 import styles from './styles.scss';
 
-const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, onClose}) => {
+const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isOpen = true, onClose}) => {
   const hasBoss = monsters.find(monster => monster.type === 'ボス');
   const lowestLv = Math.min(...monsters.map(monster => monster.lv));
   const highestLv = Math.max(...monsters.map(monster => monster.lv));
   return (
-    <Window title={`${chapter ? '\u00A0'.repeat(9) : ''}${episode.name} ${name}`} isModal={true} onClose={onClose}>
+    <Window title={`${chapter ? '\u00A0'.repeat(9) : ''}${episode.name} ${name}`} isModal={true} isOpen={isOpen} onClose={onClose}>
       {chapter && (
         <div className={styles.chapter}>
           <ChapterNumberBox number={chapter} />
