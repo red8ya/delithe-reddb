@@ -3,7 +3,7 @@ import SinglePane from '../../templates/SinglePane';
 import StageDetail from '../../organisms/StageDetail';
 import Chapter from '../../organisms/Chapter';
 import FilterWindow from '../../organisms/FilterWindow';
-import Button from '../../atoms/Button';
+import FilterButton from '../../molecules/FilterButton';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
 
@@ -32,8 +32,7 @@ const Home = () => {
     setIsFilterOpen(false);
   };
   return (
-    <SinglePane>
-      <Button onClick={() => setIsFilterOpen(true)}>フィルタ設定</Button>
+    <SinglePane header={<FilterButton onClick={() => setIsFilterOpen(true)} />}>
       {filterChapters(chapters, query).map((chapter, i) => (
         <Chapter key={`chapter${i}`}
           chapter={chapter}

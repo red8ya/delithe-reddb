@@ -3,10 +3,10 @@ import GlobalHeader from '../../atoms/GlobalHeader';
 import GlobalFooter from '../../atoms/GlobalFooter';
 import styles from './styles.scss';
 
-const SinglePane = ({children}) => (
+const SinglePane = ({header, children}) => (
   <div className={styles.page}>
     <div className={styles.header}>
-      <GlobalHeader />
+      <GlobalHeader>{header}</GlobalHeader>
     </div>
     <div className={styles.main}>{children}</div>
     <GlobalFooter />
