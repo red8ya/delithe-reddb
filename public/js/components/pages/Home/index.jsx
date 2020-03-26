@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import SinglePane from '../../templates/SinglePane';
-import GlobalHeader from '../../atoms/GlobalHeader';
-import GlobalFooter from '../../atoms/GlobalFooter';
-import Stage from '../../molecules/Stage';
-import BoxList from '../../molecules/BoxList';
-import Folder from '../../organisms/Folder';
 import StageDetail from '../../organisms/StageDetail';
+import Chapter from '../../organisms/Chapter';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
 
@@ -13,40 +9,17 @@ const Home = () => {
   const [selectedStage, setStage] = useState(null);
   return (
     <SinglePane>
-      <GlobalHeader />
       {chapters.map((chapter, i) => (
-        <Folder key={`chapter${i}`} text={chapter.name}>
-          <BoxList>
-            {chapter.episodes.map((episode) => (
-              <Folder key={episode.name} text={episode.name}>
-                <BoxList>
-                  {episode.stages.map((stage) => (
-                    <Stage key={stage.name} onClick={() => setStage([stage, episode, i+1])} {...stage} />
-                  ))}
-                </BoxList>
-              </Folder>
-            ))}
-          </BoxList>
-        </Folder>
+        <Chapter key={`chapter${i}`}
+          chapter={chapter}
+          onClick={(stage, episode) => setStage([stage, episode, i+1])} />
       ))}
-      <Folder key="abyss" text="深淵の魔境">
-        <BoxList>
-          {abyss.map((location, i) => (
-            <Folder key={location.name} text={location.name}>
-              <BoxList>
-                {location.stages.map(stage => (
-                  <Stage key={stage.name} onClick={() => setStage([stage, location, null])} {...stage} />
-                ))}
-              </BoxList>
-            </Folder>
-          ))}
-        </BoxList>
-      </Folder>
+      <Chapter chapter={{name: "深淵の魔境", episodes: abyss}}
+        onClick={(stage, episode) => setStage([stage, episode, null])} />
       {selectedStage && <StageDetail onClose={() => setStage(null)}
         chapter={selectedStage[2]}
         episode={selectedStage[1]}
         {...selectedStage[0]} />}
-      <GlobalFooter />
     </SinglePane>
   );
 };

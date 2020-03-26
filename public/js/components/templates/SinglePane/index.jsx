@@ -1,14 +1,15 @@
 import React from 'react';
+import GlobalHeader from '../../atoms/GlobalHeader';
+import GlobalFooter from '../../atoms/GlobalFooter';
 import styles from './styles.scss';
 
 const SinglePane = ({children}) => (
   <div className={styles.page}>
     <div className={styles.header}>
-      {children[0]}
+      <GlobalHeader />
     </div>
-    <div className={styles.main}>
-      {React.Children.toArray(children).slice(1)}
-    </div>
+    <div className={styles.main}>{children}</div>
+    <GlobalFooter />
   </div>
 );
 
