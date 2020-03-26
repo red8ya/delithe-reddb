@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
-    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "babel-preset-react-app": "^9.0.2",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
