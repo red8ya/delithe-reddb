@@ -17,20 +17,23 @@ const filterChapters = (chapters, query) => {
         Object.assign({}, episode, {
           stages: episode.stages.filter(stage => (
             !freeword || freeword === ''
-            || stage.monsters.find(monster => freewords.find(word => monster.name.indexOf(word) !== -1))
-            || stage.items.find(name => freewords.find(word => name.indexOf(word) !== -1))
+            || freewords.every(word => stage.monsters.find(monster => monster.name.indexOf(word) !== -1))
+            || freewords.every(word => stage.items.find(name => name.indexOf(word) !== -1))
           ))
-          .filter(stage => (
-            !anima || anima.length === 0 ||
-            stage.items.map(findAnimaByName).filter(v => !!v).find(v => anima.indexOf(v.status) !== -1)
-          ))
+          .filter(stage => {
+            const animaStatuses = stage.items.map(findAnimaByName).filter(v => !!v);
+            return (
+              !anima || anima.length === 0 ||
+              anima.every(a => animaStatuses.find(v => a.indexOf(v.status) !== -1))
+            );
+          })
           .filter(stage => (
             !monsterType || monsterType.length === 0 ||
-            stage.monsters.find(monster => monsterType.indexOf(monster.type) !== -1)
+            monsterType.every(type => stage.monsters.find(monster => monster.type.indexOf(type) !== -1))
           ))
           .filter(stage => (
             !monsterCategory || monsterCategory.length === 0 ||
-            stage.monsters.find(monster => monsterCategory.indexOf(monster.category) !== -1)
+            monsterCategory.every(category => stage.monsters.find(monster => monster.category.indexOf(category) !== -1))
           ))
         })
       )).filter(episode => episode.stages.length != 0)
