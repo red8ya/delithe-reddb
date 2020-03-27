@@ -5,7 +5,7 @@ $background: #090b0f;
   justify-content: space-between;
   padding: 10px 0;
   background:
-    linear-gradient(90deg, $background, $background, rgba(0,0,0,0.5), rgba(0,0,0,0), rgba(0,0,0,0.8)),
+    linear-gradient(90deg, $background, $background, rgba(0,0,0,0.5), rgba(0,0,0,0), rgba(0,0,0,0.7)),
     url("../../../../../static/images/mosel.png") no-repeat right/50%;
   .logo {
     height: 32px;
@@ -19,5 +19,8 @@ $background: #090b0f;
     top: 6px;
     display: flex;
     flex-direction: row;
+  }
+  .icons {
+    margin-right: 5px;
   }
 }

@@ -9,7 +9,9 @@ const GlobalHeader = ({className, children}) => (
       </div>
       <span>の赤い辞書</span>
     </div>
-    {children}
+    <div className={styles.icons}>
+      {children}
+    </div>
   </div>
 );
 
