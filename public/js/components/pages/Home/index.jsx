@@ -10,13 +10,15 @@ import { findAnimaByName } from '../../../data/anima';
 
 const filterChapters = (chapters, query) => {
   const { freeword, anima, monsterType, monsterCategory } = query;
+  const freewords = (freeword || '').split(/\s+/);
   return chapters.map(chapter => (
     Object.assign({}, chapter, {
       episodes: chapter.episodes.map(episode => (
         Object.assign({}, episode, {
           stages: episode.stages.filter(stage => (
-            stage.monsters.find(monster => monster.name.indexOf(freeword || '') !== -1)
-            || stage.items.find(name => name.indexOf(freeword || '') !== -1)
+            !freeword || freeword === ''
+            || stage.monsters.find(monster => freewords.find(word => monster.name.indexOf(word) !== -1))
+            || stage.items.find(name => freewords.find(word => name.indexOf(word) !== -1))
           ))
           .filter(stage => (
             !anima || anima.length === 0 ||
