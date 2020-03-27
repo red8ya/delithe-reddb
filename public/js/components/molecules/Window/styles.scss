@@ -48,6 +48,9 @@
   padding: 10px 20px;
   background-color: rgba(42, 49, 54, 0.9);
   box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .closeButton {
