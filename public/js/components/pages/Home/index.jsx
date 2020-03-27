@@ -4,6 +4,7 @@ import StageDetail from '../../organisms/StageDetail';
 import Chapter from '../../organisms/Chapter';
 import FilterWindow from '../../organisms/FilterWindow';
 import FilterButton from '../../molecules/FilterButton';
+import AboutButton from '../../atoms/AboutButton';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
 import { findAnimaByName } from '../../../data/anima';
@@ -49,8 +50,16 @@ const Home = () => {
     setQuery(query);
     setIsFilterOpen(false);
   };
+
+  const HeaderButtons = () => (
+    <div>
+      <AboutButton />
+      <FilterButton onClick={() => setIsFilterOpen(true)} />
+    </div>
+  );
+
   return (
-    <SinglePane header={<FilterButton onClick={() => setIsFilterOpen(true)} />}>
+    <SinglePane header={<HeaderButtons />}>
       {filterChapters(chapters, query).map((chapter, i) => (
         <Chapter key={`chapter${i}`}
           chapter={chapter}
