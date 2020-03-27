@@ -1,0 +1,10 @@
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  & > * {
+    width: 26%;
+    margin: 3px 10px;
+    box-sizing: border-box;
+  }
+}

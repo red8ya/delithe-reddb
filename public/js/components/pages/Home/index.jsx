@@ -6,16 +6,29 @@ import FilterWindow from '../../organisms/FilterWindow';
 import FilterButton from '../../molecules/FilterButton';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
+import { findAnimaByName } from '../../../data/anima';
 
 const filterChapters = (chapters, query) => {
-  const { freeword } = query;
+  const { freeword, anima, monsterType, monsterCategory } = query;
   return chapters.map(chapter => (
     Object.assign({}, chapter, {
       episodes: chapter.episodes.map(episode => (
         Object.assign({}, episode, {
           stages: episode.stages.filter(stage => (
-            stage.monsters.find(monster => monster.name.indexOf(freeword || '') != -1)
-            || stage.items.find(name => name.indexOf(freeword || '') != -1)
+            stage.monsters.find(monster => monster.name.indexOf(freeword || '') !== -1)
+            || stage.items.find(name => name.indexOf(freeword || '') !== -1)
+          ))
+          .filter(stage => (
+            !anima || anima.length === 0 ||
+            stage.items.map(findAnimaByName).filter(v => !!v).find(v => anima.indexOf(v.status) !== -1)
+          ))
+          .filter(stage => (
+            !monsterType || monsterType.length === 0 ||
+            stage.monsters.find(monster => monsterType.indexOf(monster.type) !== -1)
+          ))
+          .filter(stage => (
+            !monsterCategory || monsterCategory.length === 0 ||
+            stage.monsters.find(monster => monsterCategory.indexOf(monster.category) !== -1)
           ))
         })
       )).filter(episode => episode.stages.length != 0)
