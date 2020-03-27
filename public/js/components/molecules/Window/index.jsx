@@ -4,11 +4,11 @@ import X from '../../atoms/X';
 import styles from './styles.scss';
 
 const Window = ({title, isModal, isOpen = true, onClose, className, children}) => (
-  <div className={`${styles.container} ${isOpen ? '' : styles.hidden} ${className || ''}`}>
-    <Box className={`${styles.window} ${isModal && styles.modal}`}>
+  <div className={`${styles.container} ${isModal && styles.modal} ${isOpen ? '' : styles.hidden}`}>
+    <Box className={`${styles.window} ${className || ''}`}>
       <div className={styles.title}>
         {title}
-        <div onClick={onClose} className={styles.closeButton}>
+        <div onClick={onClose} className={styles.closeButton} style={isModal ? null : {display: 'none'}}>
           <X width='20px' height='20px' />
         </div>
       </div>
