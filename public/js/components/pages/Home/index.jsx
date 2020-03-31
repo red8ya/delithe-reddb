@@ -14,8 +14,10 @@ const filterChapters = (chapters, query) => {
   const freewords = (freeword || '').split(/\s+/);
   return chapters.map(chapter => (
     Object.assign({}, chapter, {
+      allEpisodes: chapter.episodes,
       episodes: chapter.episodes.map(episode => (
         Object.assign({}, episode, {
+          allStages: episode.stages,
           stages: episode.stages.filter(stage => (
             !freeword || freeword === ''
             || freewords.every(word => stage.monsters.find(monster => monster.name.indexOf(word) !== -1))

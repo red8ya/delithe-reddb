@@ -3,14 +3,25 @@ import BoxList from '../../molecules/BoxList';
 import Folder from '../Folder';
 import Episode from '../Episode';
 
-const Chapter = ({chapter, onClick, isFolded}) => (
-  <Folder text={chapter.name} hidden={isFolded}>
-    <BoxList>
-      {chapter.episodes.map(episode => (
-        <Episode key={episode.name} episode={episode} onClick={(stage) => onClick(stage, episode)} />
-      ))}
-    </BoxList>
-  </Folder>
+const getStageCounts = (episodes) => (
+  episodes.reduce((acc, episode) => acc + episode.stages.length, 0)
 );
+
+const Chapter = ({chapter, onClick, isFolded}) => {
+  const right = (
+    <div>
+      {getStageCounts(chapter.episodes)} / {getStageCounts(chapter.allEpisodes)}
+    </div>
+  );
+  return (
+    <Folder text={chapter.name} hidden={isFolded} right={right}>
+      <BoxList>
+        {chapter.episodes.map(episode => (
+          <Episode key={episode.name} episode={episode} onClick={(stage) => onClick(stage, episode)} />
+        ))}
+      </BoxList>
+    </Folder>
+  );
+};
 
 export default Chapter;

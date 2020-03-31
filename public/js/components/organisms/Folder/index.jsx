@@ -3,7 +3,7 @@ import LayoutBox from '../../molecules/LayoutBox';
 import Arrow from '../../atoms/Arrow';
 import styles from './styles.scss';
 
-const Folder = ({text, hidden = true, children}) => {
+const Folder = ({text, right, hidden = true, children}) => {
   const [isFolded, setIsFolded] = useState(hidden);
 
   const onClick = () => {
@@ -17,7 +17,7 @@ const Folder = ({text, hidden = true, children}) => {
 
   return (
     <div className={styles.folder}>
-      <LayoutBox icon={<Arrow direction={isFolded ? 'down' : 'up'} className={styles.arrow} />} active={!isFolded} onClick={onClick}>{text}</LayoutBox>
+      <LayoutBox icon={<Arrow direction={isFolded ? 'down' : 'up'} className={styles.arrow} />} active={!isFolded} onClick={onClick}>{text}{right}</LayoutBox>
       <div className={classNames.join(' ')}>
         {children}
       </div>
