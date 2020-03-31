@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LayoutBox from '../../molecules/LayoutBox';
+import Arrow from '../../atoms/Arrow';
 import styles from './styles.scss';
 
 const Folder = ({text, hidden = true, children}) => {
@@ -14,12 +15,9 @@ const Folder = ({text, hidden = true, children}) => {
     classNames.push(styles.hidden);
   }
 
-  const arrowUp = "/images/arrow-up.png";
-  const arrowDown = "/images/arrow-down.png";
-
   return (
     <div className={styles.folder}>
-      <LayoutBox icon={isFolded ? arrowDown : arrowUp} active={!isFolded} onClick={onClick}>{text}</LayoutBox>
+      <LayoutBox icon={<Arrow direction={isFolded ? 'down' : 'up'} className={styles.arrow} />} active={!isFolded} onClick={onClick}>{text}</LayoutBox>
       <div className={classNames.join(' ')}>
         {children}
       </div>

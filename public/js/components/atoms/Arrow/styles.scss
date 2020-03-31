@@ -1,0 +1,40 @@
+.arrowContainer {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  margin-right: 5px;
+  .arrow1, .arrow2 {
+    display: inline-block;
+    position: absolute;
+    border-top: 2.5px solid transparent;
+    border-right: 2.5px solid transparent;
+    border-bottom: 2.5px solid #ccc;
+    border-left: 2.5px solid #ccc;
+    width: 0.4em;
+    height: 0.4em;
+    box-shadow: -2px 2px 3px rgba(128, 128, 128, 0.3);
+  }
+  &.down {
+    .arrow1, .arrow2 {
+      transform: rotate(-45deg);
+    }
+    .arrow1 {
+      top: -5px;
+    }
+    .arrow2 {
+      top: 2px;
+    }
+  }
+  &.up {
+    .arrow1, .arrow2 {
+      transform: rotate(135deg);
+    }
+    .arrow1 {
+      top: 2px;
+    }
+    .arrow2 {
+      top: 9px;
+    }
+  }
+}

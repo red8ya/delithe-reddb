@@ -6,7 +6,7 @@ const LayoutBox = ({icon, children, ...attrs}) => {
   const childrenArray = React.Children.toArray(children);
   return (
     <Box {...attrs}>
-      {icon ? <div className={styles.icon}><img src={icon} /></div> : null}
+      {icon}
       {childrenArray.length <= 1 ? childrenArray : childrenArray.slice(0, -1)}
       {childrenArray.length <= 1 ? null : <div className={styles.right}>{childrenArray.slice(-1)}</div>}
     </Box>
