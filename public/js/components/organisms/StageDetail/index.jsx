@@ -7,7 +7,7 @@ import ChapterNumberBox from '../../molecules/ChapterNumberBox';
 import { findAnimaByName } from '../../../data/anima';
 import styles from './styles.scss';
 
-const miscItems = ['^メテオライト$', '^古の種火$', '^レムナンタイトの欠片$', 'の宝珠の欠片$', '^武器・防具$', '^ビーン$', '^ルーン$'];
+const miscItems = ['^メテオライト$', '^古の種火$', '^レムナンタイトの欠片$', 'の宝珠の欠片$', '^武器・防具$', '^ビーン$', '^ルーン$', '^[星月]の砂$'];
 
 const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isOpen = true, onClose}) => {
   const lowestLv = Math.min(...monsters.map(monster => monster.lv));
@@ -58,7 +58,7 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
                 const {name, lv, category} = monster;
                 return (
                   <div key={name}>
-                    <span>{name}</span> <Lv value={lv} /> ({category})
+                    <span>{name}</span> <Lv className={styles.lv} value={lv} /> ({category})
                   </div>
                 );
               })}
@@ -70,7 +70,7 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
                 const {name, lv, category} = monster;
                 return (
                   <div key={name}>
-                    <span>{name}</span> <Lv value={lv} /> ({category})
+                    <span>{name}</span> <Lv className={styles.lv} value={lv} /> ({category})
                   </div>
                 );
               })}
@@ -82,7 +82,7 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
                 const {name, lv, category} = monster;
                 return (
                   <div key={name}>
-                    <span>{name}</span> <Lv value={lv} /> ({category})
+                    <span>{name}</span> <Lv className={styles.lv} value={lv} /> ({category})
                   </div>
                 );
               })}
