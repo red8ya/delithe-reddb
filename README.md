@@ -1,5 +1,7 @@
 # De:Litheの赤い辞書
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/633aef74-d7b3-450b-962f-e3c666779ec5/deploy-status)](https://app.netlify.com/sites/delithe-reddb/deploys)
+
 De:Litheの非公式攻略データベースサイトのコードです。
 
 ## セットアップ
