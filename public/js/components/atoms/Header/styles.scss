@@ -6,3 +6,38 @@
   border-bottom: 1px solid rgba(220, 220, 220, 0.8);
   margin-bottom: 3px;
 }
+
+.headerIcon {
+  display: inline-block;
+  position: relative;
+  width: 1.5px;
+  height: 1em;
+  margin-left: 2px;
+  margin-right: 0.8em;
+  background: #aaa;
+  .border1, .border2, .border3, .border4 {
+    display: inline-block;
+    height: 1.5px;
+    background: #aaa;
+    position: absolute;
+    left: 2px;
+  }
+  .border1, .border4 {
+    width: 2px;
+  }
+  .border2, .border3 {
+    width: 0.5em;
+  }
+  .border1 {
+    top: 3px;
+  }
+  .border2 {
+    top: 5px;
+  }
+  .border3 {
+    top: 7px;
+  }
+  .border4 {
+    top: 9px;
+  }
+}
