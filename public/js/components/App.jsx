@@ -5,6 +5,7 @@ import { useRoute } from 'react-router5';
 import { router } from '../routes';
 import Home from './pages/Home';
 import About from './pages/About';
+import { getQueryStringValues } from '../query';
 import './app.scss';
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
   }
 
   if (route.name === 'home') {
-    return <Home />;
+    return <Home initialQuery={getQueryStringValues()} />;
   }
 
   if (route.name === 'about') {

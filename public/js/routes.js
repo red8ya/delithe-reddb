@@ -2,11 +2,14 @@ import createRouter from 'router5';
 import browserPlugin from 'router5-plugin-browser';
 
 const routes = [
-  { name: 'home', path: '/' },
+  { name: 'home', path: '/?monsterType&monsterCategory&anima&freeword' },
   { name: 'about', path: '/about' }
 ];
 
-export const router = createRouter(routes);
+export const router = createRouter(routes, {
+  arrayFormat: 'none',
+  nullFormat: 'hidden'
+});
 
 router.usePlugin(browserPlugin());
 
