@@ -1,5 +1,6 @@
 import React from 'react';
 import BoxList from '../../molecules/BoxList';
+import Fraction from '../../atoms/Fraction';
 import Folder from '../Folder';
 import Episode from '../Episode';
 
@@ -9,9 +10,7 @@ const getStageCounts = (episodes) => (
 
 const Chapter = ({chapter, onClick, isFolded}) => {
   const right = (
-    <div>
-      {getStageCounts(chapter.episodes)} / {getStageCounts(chapter.allEpisodes)}
-    </div>
+    <Fraction num={getStageCounts(chapter.episodes)} denom={getStageCounts(chapter.allEpisodes)} />
   );
   return (
     <Folder text={chapter.name} hidden={isFolded} right={right}>
