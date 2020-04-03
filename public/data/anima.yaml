@@ -266,6 +266,92 @@
           status: 魔攻
         - name: スマラグドゥス
           status: 命中
+- name: 第四魔境郡
+  pages:
+    - name: ジャン＝デルナバル大監獄
+      anima:
+        - name: オブリヴィオン
+          status: 魔攻
+        - name: ヴォイド
+          status: 会心
+        - name: ジャガーノート
+          status: 物防
+        - name: レヴェリー
+          status: MP
+        - name: トーチャー
+          status: 俊敏
+        - name: クヴァレ
+          status: 命中
+        - name: ラプラス
+          status: 物攻
+    - name: タルアラント溶岩洞窟
+      anima:
+        - name: アランリクシィ
+          status: 物防
+        - name: インランドアビス
+          status: 物攻
+        - name: ラーカギーガル
+          status: 会心
+        - name: レプティル
+          status: 命中
+        - name: パーティング
+          status: 会心
+        - name: ミューカス
+          status: MP
+- name: ラムダとヴェルダ
+  pages:
+    - name: 8章-1
+      anima:
+        - name: イビルファミリア
+          status: 魔防
+        - name: ガロウズ
+          status: 物防
+        - name: ノスフェラトゥ
+          status: HP
+        - name: カミーリア
+          status: 回魔
+        - name: ホリブルノア
+          status: 俊敏
+        - name: スティッキー
+          status: MP
+    - name: 8章-2
+      anima:
+        - name: キリアーク
+          status: 物防
+        - name: ザムザ
+          status: 命中
+        - name: ブラッディタロン
+          status: 会心
+        - name: ブランダー
+          status: 物攻
+        - name: クルトー
+          status: 俊敏
+- name: 途切れた記憶
+  pages:
+    - name: 9章-1
+      anima:
+        - name: ミザリー
+          status: 回避
+        - name: クリプトロード
+          status: 魔攻
+        - name: スタッグネイト
+          status: MP
+        - name: キャラペイス
+          status: 物防
+        - name: エルドニア
+          status: 命中
+    - name: 9章-2
+      anima:
+        - name: シャドーパンサー
+          status: 俊敏
+        - name: リグレット
+          status: 回魔
+        - name: ブラッドメイン
+          status: 会心
+        - name: スミロドン
+          status: 俊敏
+        - name: アマリリス
+          status: 回魔
 - name: ギルドダンジョン
   pages:
     - name: ギルドダンジョン
