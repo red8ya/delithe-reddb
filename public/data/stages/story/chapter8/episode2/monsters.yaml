@@ -1,0 +1,80 @@
+キラーパンサー:
+  lv: 97
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ホロウシルフ:
+  lv: 95
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ブレイバーゴブリン:
+  lv: 97
+  rarity: N
+  type: ノーマル
+  category: 人型
+ホリブルロア:
+  lv: 99
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+カミーリア:
+  lv: 100
+  rarity: N
+  type: ノーマル
+  category: 聖
+ツリーパー:
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 魔
+スターリーピクシー:
+  lv: 97
+  rarity: HN
+  type: ノーマル
+  category: 聖
+ブルータルゴブリン:
+  lv: 97
+  rarity: HN
+  type: ノーマル
+  category: 人型
+ブランダー:
+  lv: 99
+  rarity: HN
+  type: ノーマル
+  category: 人型
+バウンティオーク:
+  lv: 99
+  rarity: N
+  type: ノーマル
+  category: 人型
+ガロウズ:
+  lv: 100
+  rarity: N
+  type: ノーマル
+  category: 人型
+レオパルディ:
+  lv: 98
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ヴィラレントプルゥ:
+  lv: 100
+  rarity: N
+  type: ノーマル
+  category: 魔
+スティッキー:
+  lv: 104
+  rarity: N
+  type: ノーマル
+  category: 魔
+蝦蟆眼のクガン:
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 魔
+ミリタントオーク:
+  lv: 102
+  rarity: N
+  type: ノーマル
+  category: 人型

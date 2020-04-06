@@ -1,0 +1,80 @@
+ハイオーク:
+  lv: 90
+  rarity: N
+  type: ノーマル
+  category: 人型
+クレイガーゴイル:
+  lv: 90
+  rarity: HN
+  type: ノーマル
+  category: 魔
+？？？？:
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 魔
+ナイトメアリッチ:
+  lv: 90
+  rarity: N
+  type: ノーマル
+  category: 魔
+グロウンバンパイア:
+  lv: 92
+  rarity: N
+  type: ノーマル
+  category: 魔
+ノスフェラトゥ:
+  lv: 95
+  rarity: N
+  type: ノーマル
+  category: 魔
+ジブサムガーゴイル:
+  lv: 92
+  rarity: HN
+  type: ノーマル
+  category: 魔
+ディセンドリッチ:
+  lv: 92
+  rarity: N
+  type: ノーマル
+  category: 魔
+イビルファミリア:
+  lv: 97
+  rarity: HN
+  type: ノーマル
+  category: 魔
+イビルバンパイア:
+  lv: 95
+  rarity: N
+  type: ノーマル
+  category: 魔
+グリズリー:
+  lv: 93
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ブラッディタロン:
+  lv: 100
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ジェイラー・ロック:
+  lv: 93
+  rarity: R
+  type: ボス
+  category: 人型
+プブリカエ:
+  lv: 95
+  rarity: HR
+  type: ボス
+  category: 聖
+強欲のユリアナ:
+  lv: 95
+  rarity: HR
+  type: ボス
+  category: 聖
+レリギオー:
+  lv: 95
+  rarity: HR
+  type: ボス
+  category: 聖
