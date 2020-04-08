@@ -6,6 +6,7 @@ import Header from '../../atoms/Header';
 import CheckButton from '../../molecules/CheckButton';
 import ButtonGroup from '../../molecules/ButtonGroup';
 import Section from '../../atoms/Section';
+import CheckBox from '../../atoms/CheckBox';
 import styles from './styles.scss';
 
 const FilterCheckButton = ({onClick, name, activeBy, children}) => {
@@ -32,6 +33,9 @@ const FilterWindow = ({defaultQuery = {}, onSubmit, onClose, ...args}) => {
     setQuery(Object.assign({}, query, {[e.target.name]: e.target.value}));
   };
   const handleCheck = (e) => {
+    setQuery(Object.assign({}, query, {[e.target.name]: e.target.checked}));
+  };
+  const handleCheckMulti = (e) => {
     const { name, value, checked } = e.target;
     let values = query[name] ? query[name].concat() : [];
     if (checked) {
@@ -52,9 +56,9 @@ const FilterWindow = ({defaultQuery = {}, onSubmit, onClose, ...args}) => {
             <Header>モンスタータイプ</Header>
 
             <ButtonGroup>
-              <FilterCheckButton onClick={handleCheck} name="monsterType" activeBy={query.monsterType}>ノーマル</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterType" activeBy={query.monsterType}>エリート</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterType" activeBy={query.monsterType}>ボス</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterType" activeBy={query.monsterType}>ノーマル</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterType" activeBy={query.monsterType}>エリート</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterType" activeBy={query.monsterType}>ボス</FilterCheckButton>
             </ButtonGroup>
           </Section>
 
@@ -62,11 +66,11 @@ const FilterWindow = ({defaultQuery = {}, onSubmit, onClose, ...args}) => {
             <Header>モンスター種別</Header>
 
             <ButtonGroup>
-              <FilterCheckButton onClick={handleCheck} name="monsterCategory" activeBy={query.monsterCategory}>魔</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterCategory" activeBy={query.monsterCategory}>魔獣</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterCategory" activeBy={query.monsterCategory}>聖</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterCategory" activeBy={query.monsterCategory}>竜</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="monsterCategory" activeBy={query.monsterCategory}>人型</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterCategory" activeBy={query.monsterCategory}>魔</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterCategory" activeBy={query.monsterCategory}>魔獣</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterCategory" activeBy={query.monsterCategory}>聖</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterCategory" activeBy={query.monsterCategory}>竜</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="monsterCategory" activeBy={query.monsterCategory}>人型</FilterCheckButton>
             </ButtonGroup>
           </Section>
 
@@ -74,18 +78,25 @@ const FilterWindow = ({defaultQuery = {}, onSubmit, onClose, ...args}) => {
             <Header>アニマ</Header>
 
             <ButtonGroup>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>HP</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>MP</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>物防</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>魔防</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>物攻</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>魔攻</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>回魔</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>会心</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>回避</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>命中</FilterCheckButton>
-              <FilterCheckButton onClick={handleCheck} name="anima" activeBy={query.anima}>俊敏</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>HP</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>MP</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>物防</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>魔防</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>物攻</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>魔攻</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>回魔</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>会心</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>回避</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>命中</FilterCheckButton>
+              <FilterCheckButton onClick={handleCheckMulti} name="anima" activeBy={query.anima}>俊敏</FilterCheckButton>
             </ButtonGroup>
+          </Section>
+
+          <Section>
+            <Header>ドロップアイテム</Header>
+            <div className={styles.dropContainer}>
+              <CheckBox name="has_accessory" onClick={handleCheck} checked={query.has_accessory}> アクセサリのドロップがある</CheckBox>
+            </div>
           </Section>
         </div>
         <div className={styles.footer}>

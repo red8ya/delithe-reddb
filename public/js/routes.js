@@ -2,7 +2,7 @@ import createRouter from 'router5';
 import browserPlugin from 'router5-plugin-browser';
 
 const routes = [
-  { name: 'home', path: '/?monsterType&monsterCategory&anima&freeword' },
+  { name: 'home', path: '/?monsterType&monsterCategory&anima&freeword&has_accessory' },
   { name: 'about', path: '/about' }
 ];
 

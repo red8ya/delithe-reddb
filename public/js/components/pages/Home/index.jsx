@@ -8,6 +8,7 @@ import AboutButton from '../../atoms/AboutButton';
 import { setQueryString } from '../../../query';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
+import equipments from '../../../../data/equipments.yaml';
 import { findAnimaByName } from '../../../data/anima';
 
 const ensureArray = (value) => (
@@ -16,11 +17,13 @@ const ensureArray = (value) => (
 
 const arrayKeys = ['monsterType', 'monsterCategory', 'anima'];
 const stringKeys = ['freeword'];
+const booleanKeys = ['has_accessory'];
 
 const normalizeQuery = (query) => {
   Object.keys(query).forEach(key => {
     query[key] = arrayKeys.indexOf(key) !== -1 ? ensureArray(query[key])
-      : stringKeys.indexOf(key) !== -1 && query[key] === '' ? undefined
+      : stringKeys.indexOf(key) !== -1 ? (query[key] === '' ? undefined : query[key])
+      : booleanKeys.indexOf(key) !== -1 ? (query[key] === false ? undefined : query[key])
       : query[key];
   });
   return query;
@@ -54,6 +57,9 @@ const filterChapters = (chapters, query) => {
           .filter(stage => (
             !monsterCategory || monsterCategory.length === 0 ||
             monsterCategory.every(category => stage.monsters.find(monster => monster.category.indexOf(category) !== -1))
+          ))
+          .filter(stage => (
+            !query.has_accessory || stage.items.find(name => equipments[name]?.type === 'アクセサリ')
           ))
         })
       )).filter(episode => episode.stages.length != 0)

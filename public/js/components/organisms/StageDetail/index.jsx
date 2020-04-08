@@ -5,6 +5,7 @@ import Cp from '../../atoms/Cp';
 import Window from '../../molecules/Window';
 import ChapterNumberBox from '../../molecules/ChapterNumberBox';
 import { findAnimaByName } from '../../../data/anima';
+import equipments from '../../../../data/equipments.yaml';
 import styles from './styles.scss';
 
 const miscItems = ['^メテオライト$', '^古の種火$', '^レムナンタイトの欠片$', 'の宝珠の欠片$', '^武器・防具$', '^ビーン$', '^ルーン$', '^[星月]の砂$'];
@@ -107,8 +108,8 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
               {mainItems.map(name => {
                 return (
                   <div key={name}>
-                    <span>{name}</span>
-                      </div>
+                    <span>{`${name}${equipments[name] ? ` (${equipments[name].part})` : ''}`}</span>
+                  </div>
                 );
               })}
             </div>)}
@@ -119,7 +120,7 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
                 return (
                   <div key={name}>
                     <span>{name}</span>
-                      </div>
+                  </div>
                 );
               })}
             </div>)}
