@@ -78,3 +78,13 @@
   rarity: N
   type: ノーマル
   category: 人型
+チェイスウルフ:
+  lv: 102
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+チェイサー:
+  lv: 102
+  rarity: HN
+  type: ノーマル
+  category: 人型
