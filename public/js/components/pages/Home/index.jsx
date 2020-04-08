@@ -52,11 +52,11 @@ const filterChapters = (chapters, query) => {
           })
           .filter(stage => (
             !monsterType || monsterType.length === 0 ||
-            monsterType.every(type => stage.monsters.find(monster => monster.type.indexOf(type) !== -1))
+            monsterType.every(type => stage.monsters.find(monster => monster.type === type))
           ))
           .filter(stage => (
             !monsterCategory || monsterCategory.length === 0 ||
-            monsterCategory.every(category => stage.monsters.find(monster => monster.category.indexOf(category) !== -1))
+            monsterCategory.every(category => stage.monsters.find(monster => monster.category === category))
           ))
           .filter(stage => (
             !query.has_accessory || stage.items.find(name => equipments[name]?.type === 'アクセサリ')
