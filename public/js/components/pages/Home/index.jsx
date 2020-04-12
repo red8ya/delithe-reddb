@@ -85,10 +85,10 @@ const Home = ({initialQuery}) => {
 
   return (
     <SinglePane header={<HeaderButtons />}>
-      {filterChapters(chapters, query).map((chapter, i) => (
-        <Chapter key={`chapter${i}`}
+      {filterChapters(chapters, query).map((chapter) => (
+        <Chapter key={`chapter${chapter.number}`}
           chapter={chapter}
-          onClick={(stage, episode) => setStage([stage, episode, i+1])}
+          onClick={(stage, episode) => setStage([stage, episode, chapter.number])}
         />
       ))}
       {filterChapters([{name: "深淵の魔境", episodes: abyss}], query).map((chapter, i) => (
