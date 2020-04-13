@@ -88,3 +88,58 @@
   rarity: HN
   type: ノーマル
   category: 人型
+アサルトオーク:
+  lv: 102
+  rarity: N
+  type: ノーマル
+  category: 人型
+キリアーク:
+  lv: 107
+  rarity: N
+  type: ノーマル
+  category: 人型
+ブリーズハーピー:
+  lv: 104
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+シバーリザード:
+  lv: 106
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ゲイルワイバーン:
+  lv: 104
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ザムザ:
+  lv: 109
+  rarity: HN
+  type: ノーマル
+  category: 竜
+リダウトリザード:
+  lv: 100
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ブリーズワイバーン:
+  lv: 104
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ウィンドワイバーン:
+  lv: 106
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ガストワイバーン:
+  lv: 107
+  rarity: HN
+  type: ノーマル
+  category: 竜
+ゼファー:
+  lv: 109
+  rarity: R
+  type: ボス
+  category: 竜
