@@ -1,0 +1,90 @@
+ゴールデンプルゥ:
+  lv: 20
+  rarity: HN
+  type: ボス
+  category: 魔
+プルゥ:
+  lv: 40
+  rarity: R
+  type: ボス
+  category: 魔
+ラージプルゥ:
+  lv: 40
+  rarity: R
+  type: ボス
+  category: 魔
+ピクシー:
+  lv: 60
+  rarity: N
+  type: ボス
+  category: 聖
+オオヒルメムチ:
+  lv: 60
+  rarity: HR
+  type: ボス
+  category: 人型
+削剥のベニチオ:
+  lv: 80
+  rarity: HR
+  type: ボス
+  category: 人型
+刻削のベニチオ:
+  lv: 80
+  rarity: HR
+  type: ボス
+  category: 人型
+タイタン:
+  lv: 100
+  rarity: SR
+  type: ボス
+  category: 人型
+アスピドケロン:
+  lv: 100
+  rarity: SR
+  type: ボス
+  category: 魔獣
+スケルトンソルジャー:
+  lv: 60
+  rarity: R
+  type: ボス
+  category: 魔
+死臭のブランドー:
+  lv: 60
+  rarity: HR
+  type: ボス
+  category: 人型
+スケルトンウォーリア:
+  lv: 60
+  rarity: R
+  type: ボス
+  category: 魔
+サメフエンジェル:
+  lv: 80
+  rarity: R
+  type: ボス
+  category: 聖
+アクアマリンプルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+ミアズマプルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+ブラッディープルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+雷王ガルーダ:
+  lv: 90
+  rarity: R
+  type: ボス
+  category: 聖
+ルシファー:
+  lv: 150
+  rarity: R
+  type: ボス
+  category: 聖

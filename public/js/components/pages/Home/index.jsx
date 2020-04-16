@@ -8,6 +8,7 @@ import AboutButton from '../../atoms/AboutButton';
 import { setQueryString } from '../../../query';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
+import maps from '../../../data/stages/maps';
 import equipments from '../../../../data/equipments.yaml';
 import { findAnimaByName } from '../../../data/anima';
 
@@ -93,6 +94,14 @@ const Home = ({initialQuery}) => {
       ))}
       {filterChapters([{name: "深淵の魔境", episodes: abyss}], query).map((chapter, i) => (
         <Chapter key={`abyss${i}`} chapter={chapter}
+          onClick={(stage, episode) => setStage([stage, episode, null])}
+        />
+      ))}
+      {filterChapters([{name: "絶域の標", episodes: [{
+        name: "霧の大地",
+        stages: maps.foggy
+      }]}], query).map((chapter, i) => (
+        <Chapter key={`maps_${chapter.name}_${i}`} chapter={chapter}
           onClick={(stage, episode) => setStage([stage, episode, null])}
         />
       ))}

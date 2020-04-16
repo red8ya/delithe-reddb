@@ -105,9 +105,9 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
           {mainItems.length !== 0 && (
             <div className={styles.section}>
               <Header>レア報酬</Header>
-              {mainItems.map(name => {
+              {mainItems.map((name, i) => {
                 return (
-                  <div key={name}>
+                  <div key={`${name}_${i}`}>
                     <span>{`${name}${equipments[name] ? ` (${equipments[name].part})` : ''}`}</span>
                   </div>
                 );
