@@ -8,7 +8,7 @@ import { findAnimaByName } from '../../../data/anima';
 import equipments from '../../../../data/equipments.yaml';
 import styles from './styles.scss';
 
-const miscItems = ['^メテオライト$', '^古の種火$', '^レムナンタイトの欠片$', 'の宝珠の欠片$', '^武器・防具$', '^ビーン$', '^ルーン$', '^[星月]の砂$'];
+const miscItems = ['^メテオライト$', '^古の種火$', '^レムナンタイトの欠片$', 'の宝珠の欠片$', '^武器・防具$', '^ビーン$', '^ルーン$', '^[星月]の砂$', '^ルピ', '^精油$', '^SP$', 'の錬成粉\\(..?\\)$', '^アイアゲート$', '^マラカイト$', '^ロードナイト$', '^ガーネット$', '^タイガーアイ$', '^アマゾナイト$', '^ラピスラズリ$', '^レピドライト$', '^ムーンクォーツ$'];
 
 const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isOpen = true, onClose}) => {
   const lowestLv = Math.min(...monsters.map(monster => monster.lv));
