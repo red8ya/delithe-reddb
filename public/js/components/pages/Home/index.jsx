@@ -3,12 +3,16 @@ import SinglePane from '../../templates/SinglePane';
 import StageDetail from '../../organisms/StageDetail';
 import Chapter from '../../organisms/Chapter';
 import FilterWindow from '../../organisms/FilterWindow';
+import Folder from '../../organisms/Folder';
+import BoxList from '../../molecules/BoxList';
 import FilterButton from '../../molecules/FilterButton';
 import AboutButton from '../../atoms/AboutButton';
+import Fraction from '../../atoms/Fraction';
 import { setQueryString } from '../../../query';
 import chapters from '../../../data/stages/story';
 import abyss from '../../../data/stages/abyss';
 import maps from '../../../data/stages/maps';
+import guild from '../../../data/stages/guild';
 import equipments from '../../../../data/equipments.yaml';
 import { findAnimaByName } from '../../../data/anima';
 
@@ -97,6 +101,31 @@ const Home = ({initialQuery}) => {
           onClick={(stage, episode) => setStage([stage, episode, null])}
         />
       ))}
+          {(() => {
+            const filteredChapters = filterChapters(guild, query);
+            if (filteredChapters.length > 0) {
+              const allStagesCount = guild.reduce((acc, chapter) => (
+                acc + chapter.episodes.reduce((acc, episode) => acc + episode.stages.length, 0)
+              ), 0);
+              const stagesCount = filteredChapters.reduce((acc, chapter) => (
+                acc + chapter.episodes.reduce((acc, episode) => acc + episode.stages.length, 0)
+              ), 0);
+              return (
+                <Folder text="ギルドダンジョン"
+                  right={<Fraction num={stagesCount} denom={allStagesCount} />}>
+                  <BoxList>
+                    {
+                      filteredChapters.map((chapter, i) => (
+                        <Chapter key={`guild${i}`} chapter={chapter}
+                          onClick={(stage, episode) => setStage([stage, episode, null])}
+                        />
+                      ))
+                    }
+                  </BoxList>
+                </Folder>
+              );
+            }
+          })()}
       {filterChapters([{name: "絶域の標", episodes: [{
         name: "霧の大地",
         stages: maps.foggy

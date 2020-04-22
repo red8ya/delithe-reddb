@@ -1,0 +1,73 @@
+- name: NORMAL
+  stages:
+    - name: SMALL
+      cp: 27400
+      monsters:
+        - name: カプトリヌス
+          lv: 10
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド防具ボックス
+        - ルピ(1500)
+    - name: MEDIUM
+      cp: 27400
+      monsters:
+        - name: レオパルド
+          lv: 10
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド装飾ボックス
+        - ルピ(4000)
+    - name: LARGE
+      cp: 27400
+      monsters:
+        - name: パズズ
+          lv: 10
+          rarity: HR
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド武器ボックス
+        - ルピ(7000)
+        - パズズ討伐ボックス
+- name: HARD
+  stages:
+    - name: SMALL
+      cp: 191800
+      monsters:
+        - name: カプトリヌス
+          lv: 55
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド防具ボックス
+        - ルピ(2000)
+    - name: MEDIUM
+      cp: 191800
+      monsters:
+        - name: レオパルド
+          lv: 55
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド装飾ボックス
+        - ルピ(5000)
+    - name: LARGE
+      cp: 191800
+      monsters:
+        - name: パズズ
+          lv: 55
+          rarity: HR
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド武器ボックス
+        - RSP(130)
+        - ルピ(7500)
+        - パズズ討伐ボックス(2)

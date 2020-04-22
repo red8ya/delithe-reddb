@@ -1,0 +1,80 @@
+- name: NORMAL
+  stages:
+    - name: SMALL
+      cp: 92200
+      monsters:
+        - name: デスペア
+          lv: 25
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド防具ボックス
+        - ルピ(3000)
+    - name: MEDIUM
+      cp: 92200
+      monsters:
+        - name: クランプス
+          lv: 25
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド装飾ボックス
+        - ルピ(5500)
+    - name: LARGE
+      cp: 92200
+      monsters:
+        - name: ニーズヘッグ
+          lv: 25
+          rarity: HR
+          type: ボス
+          category: 魔
+      items:
+        - ギルド武器ボックス
+        - ギルド防具ボックス
+        - ギルド装飾ボックス
+        - RSP(150)
+        - ルピ(8500)
+        - ニーズヘッグ討伐ボックス
+        - ニーズヘッグのアニマ
+- name: HARD
+  stages:
+    - name: SMALL
+      cp: 325400
+      monsters:
+        - name: デスペア
+          lv: 70
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド防具ボックス
+        - ルピ(3500)
+    - name: MEDIUM
+      cp: 325400
+      monsters:
+        - name: クランプス
+          lv: 70
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド装飾ボックス
+        - ルピ(6500)
+    - name: LARGE
+      cp: 325400
+      monsters:
+        - name: ニーズヘッグ
+          lv: 70
+          rarity: HR
+          type: ボス
+          category: 魔
+      items:
+        - ギルド武器ボックス
+        - ギルド防具ボックス
+        - ギルド装飾ボックス
+        - RSP(150)
+        - ルピ(9000)
+        - ニーズヘッグ討伐ボックス(2)
+        - ニーズヘッグのアニマ
