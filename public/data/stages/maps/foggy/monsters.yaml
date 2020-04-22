@@ -28,7 +28,8 @@
   rarity: HR
   type: ボス
   category: 人型
-刻削のベニチオ:
+刻削のベニチオ_80:
+  name: 刻削のベニチオ
   lv: 80
   rarity: HR
   type: ボス
@@ -88,3 +89,34 @@
   rarity: R
   type: ボス
   category: 聖
+ジェノアハピー:
+  lv: 100
+  rarity: R
+  type: ノーマル
+  category: 魔獣
+刻削のベニチオ_100:
+  name: 刻削のベニチオ
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 人型
+ラーズ:
+  lv: 165
+  rarity: R
+  type: ボス
+  category: 人型
+マグニス:
+  lv: 165
+  rarity: R
+  type: ボス
+  category: 人型
+スカルヘッド:
+  lv: 45
+  rarity: R
+  type: ノーマル
+  category: 魔
+ホーンドデビル:
+  lv: 45
+  rarity: R
+  type: ノーマル
+  category: 魔

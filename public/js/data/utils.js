@@ -4,7 +4,7 @@ export const mergeMonsters = (stage, monsters) => (
       if (!monsters[name]) {
         console.error(`Unknown monster: ${name} in ${stage.name}`);
       }
-      return Object.assign(monsters[name], { name })
+      return Object.assign({ name }, monsters[name]);
     })
   })
 );
