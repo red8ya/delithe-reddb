@@ -427,3 +427,73 @@
   rarity: R
   type: エリート
   category: 魔
+メガリスデーモン:
+  lv: 120
+  rarity: R
+  type: エリート
+  category: 魔
+バーンタートル:
+  lv: 120
+  rarity: R
+  type: エリート
+  category: 魔獣
+アランリクシィ:
+  lv: 120
+  rarity: R
+  type: エリート
+  category: 魔獣
+インランドアビス:
+  lv: 120
+  rarity: R
+  type: エリート
+  category: 魔
+ガルツワイバーン:
+  lv: 125
+  rarity: R
+  type: エリート
+  category: 竜
+アーミーリザード:
+  lv: 125
+  rarity: R
+  type: エリート
+  category: 竜
+レプティル:
+  lv: 125
+  rarity: R
+  type: エリート
+  category: 竜
+ラーカギーガル:
+  lv: 125
+  rarity: R
+  type: エリート
+  category: 竜
+スケルトンナイト:
+  lv: 131
+  rarity: R
+  type: エリート
+  category: 魔
+バラストゴーレム:
+  lv: 131
+  rarity: N
+  type: エリート
+  category: 魔
+パーティング:
+  lv: 131
+  rarity: R
+  type: エリート
+  category: 魔
+ブロブプルゥ:
+  lv: 138
+  rarity: R
+  type: エリート
+  category: 魔
+ゲイズテンタクル:
+  lv: 138
+  rarity: N
+  type: エリート
+  category: 魔
+ミューカス:
+  lv: 138
+  rarity: R
+  type: エリート
+  category: 魔
