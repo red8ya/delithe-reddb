@@ -1,0 +1,50 @@
+マグマタートル:
+  lv: 120
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+テラーベア:
+  lv: 120
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+キャラペイス:
+  lv: 128
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ハングリープルゥ:
+  lv: 121
+  rarity: N
+  type: ノーマル
+  category: 魔
+レッサーデーモン:
+  lv: 122
+  rarity: N
+  type: ノーマル
+  category: 魔
+フォーミングプルゥ:
+  lv: 122
+  rarity: N
+  type: ノーマル
+  category: 魔
+ヒートタートル:
+  lv: 122
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+スタッグネイト:
+  lv: 128
+  rarity: N
+  type: ノーマル
+  category: 魔
+ヘビーベア:
+  lv: 122
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+リントヴルム:
+  lv: 124
+  rarity: R
+  type: ボス
+  category: 竜
