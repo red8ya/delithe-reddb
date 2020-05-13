@@ -48,3 +48,78 @@
   rarity: R
   type: ボス
   category: 竜
+憤怒のグラムリース:
+  lv: 130
+  rarity: HR
+  type: ボス
+  category: 聖
+オークバトラー:
+  lv: 122
+  rarity: N
+  type: ノーマル
+  category: 人型
+ナイトリックプルゥ:
+  lv: 123
+  rarity: N
+  type: ノーマル
+  category: 魔
+ボルケーノタートル:
+  lv: 123
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ラースベアー:
+  lv: 123
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+フィッツ:
+  lv: 130
+  rarity: N
+  type: ノーマル
+  category: 人型
+ラヴァデーモン:
+  lv: 123
+  rarity: N
+  type: ノーマル
+  category: 魔
+アピサルプルゥ:
+  lv: 124
+  rarity: N
+  type: ノーマル
+  category: 魔
+ラヴァタートル:
+  lv: 124
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+グランドベア:
+  lv: 124
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ホーンパンサー:
+  lv: 126
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+コーラルマーメイド:
+  lv: 126
+  rarity: N
+  type: ノーマル
+  category: 聖
+シャドーパンサー:
+  lv: 128
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+アズールマーメイド:
+  lv: 127
+  rarity: N
+  type: ノーマル
+  category: 聖
+リグレット:
+  lv: 127
+  rarity: N
+  type: ノーマル
+  category: 聖

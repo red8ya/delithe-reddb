@@ -1,0 +1,70 @@
+キラーベア:
+  lv: 126
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ジャングルパンサー:
+  lv: 126
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+グレイウルフ:
+  lv: 126
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ブラッドメイン:
+  lv: 128
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+ラピッドピクシー:
+  lv: 127
+  rarity: N
+  type: ノーマル
+  category: 聖
+アマリリス:
+  lv: 130
+  rarity: N
+  type: ノーマル
+  category: 聖
+リーフフェアリー:
+  lv: 127
+  rarity: N
+  type: ノーマル
+  category: 聖
+ワイルドベア:
+  lv: 127
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+メラストマ:
+  lv: 128
+  rarity: R
+  type: ボス
+  category: 魔
+セントパンサー:
+  lv: 128
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ブライアフェアリー:
+  lv: 128
+  rarity: N
+  type: ノーマル
+  category: 聖
+ハンターベア:
+  lv: 129
+  rarity: HN
+  type: ノーマル
+  category: 魔獣
+スミロドン:
+  lv: 130
+  rarity: N
+  type: ノーマル
+  category: 魔獣
+ハイランドウルフ:
+  lv: 129
+  rarity: N
+  type: ノーマル
+  category: 魔獣
