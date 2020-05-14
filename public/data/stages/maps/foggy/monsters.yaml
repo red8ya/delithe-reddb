@@ -120,3 +120,30 @@
   rarity: R
   type: ノーマル
   category: 魔
+ヴァンパイア:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+ノートリアス:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+ドラキュラ:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+削剥のベニチオ_180:
+  name: 削剥のベニチオ
+  lv: 180
+  rarity: HR
+  type: ボス
+  category: 人型
+刻削のベニチオ_180:
+  name: 刻削のベニチオ
+  lv: 180
+  rarity: HR
+  type: ボス
+  category: 人型
