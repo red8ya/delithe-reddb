@@ -23,12 +23,6 @@
     .left, .right {
       border: 1px solid lighten($active-border-shadow, 20%);
     }
-    .left {
-      box-shadow: inset 5px -5px 3px -5px #69aada;
-    }
-    .right {
-      box-shadow: inset -5px 5px 3px -5px #69aada;
-    }
   }
 }
 
