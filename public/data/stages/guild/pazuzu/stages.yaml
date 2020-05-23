@@ -71,3 +71,43 @@
         - RSP(130)
         - ルピ(7500)
         - パズズ討伐ボックス(2)
+- name: VERY HARD
+  stages:
+    - name: SMALL
+      cp: 369900
+      monsters:
+        - name: カプトリヌス
+          lv: 80
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド防具ボックス
+        - ルピ(3000)
+    - name: MEDIUM
+      cp: 369900
+      monsters:
+        - name: レオパルド
+          lv: 80
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド装飾ボックス
+        - ルピ(5500)
+    - name: LARGE
+      cp: 369900
+      monsters:
+        - name: パズズ
+          lv: 80
+          rarity: HR
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド武器ボックス
+        - ギルド防具ボックス
+        - ギルド装飾ボックス
+        - RSP(180)
+        - ルピ(8500)
+        - 中級パズズ討伐ボックス(2)
+        - パズズのアニマ

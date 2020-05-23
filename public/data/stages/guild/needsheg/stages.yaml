@@ -74,3 +74,43 @@
         - ルピ(9000)
         - ニーズヘッグ討伐ボックス(2)
         - ニーズヘッグのアニマ
+- name: VERY HARD
+  stages:
+    - name: SMALL
+      cp: 559600
+      monsters:
+        - name: デスペア
+          lv: 90
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド防具ボックス
+        - ルピ(4000)
+    - name: MEDIUM
+      cp: 559600
+      monsters:
+        - name: クランプス
+          lv: 90
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - ギルド装飾ボックス
+        - ルピ(7000)
+    - name: LARGE
+      cp: 559600
+      monsters:
+        - name: ニーズヘッグ
+          lv: 90
+          rarity: HR
+          type: ボス
+          category: 魔
+      items:
+        - ギルド武器ボックス
+        - ギルド防具ボックス
+        - ギルド装飾ボックス
+        - RSP(200)
+        - ルピ(9500)
+        - 中級ニーズヘッグ討伐ボックス(2)
+        - ニーズヘッグのアニマ
