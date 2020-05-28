@@ -147,6 +147,23 @@
   rarity: HR
   type: ボス
   category: 人型
+ピクシー_40:
+  name: ピクシー
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 聖
+サキュバス_40:
+  name: サキュバス
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+デュナミス:
+  lv: 40
+  rarity: R
+  type: ボス
+  category: 聖
 タイタン_180:
   name: タイタン
   lv: 180
