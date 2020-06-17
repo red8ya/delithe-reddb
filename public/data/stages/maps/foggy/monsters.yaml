@@ -188,3 +188,27 @@
   rarity: R
   type: ボス
   category: 人型
+マーメイド_40:
+  name: マーメイド
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 聖
+ウィルム_100:
+  name: ウィルム
+  lv: 100
+  rarity: HR
+  type: ボス
+  category: 竜
+ダイアウルフ_150:
+  name: ダイアウルフ
+  lv: 150
+  rarity: R
+  type: ボス
+  category: 魔獣
+レッドワイバーン_150:
+  name: レッドワイバーン
+  lv: 150
+  rarity: R
+  type: ボス
+  category: 竜
