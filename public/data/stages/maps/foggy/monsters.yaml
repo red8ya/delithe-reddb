@@ -212,3 +212,33 @@
   rarity: R
   type: ボス
   category: 竜
+スライムテンタクル_40:
+  name: スライムテンタクル
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+デビルハーピー_40:
+  name: デビルハーピー
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔獣
+ワイルドウルフ_100:
+  name: ワイルドウルフ
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 魔獣
+ラナリーシェ_100:
+  name: ラナリーシェ
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 人型
+ニンブルパンサー_100:
+  name: ニンブルパンサー
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 魔獣
