@@ -1,0 +1,34 @@
+.container {
+  padding: 10px 15px;
+  background: linear-gradient(to bottom left, #151A1F 0%, #222933 100%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  padding-bottom: 10px;
+  .jp {
+    margin-left: 15px;
+    font-size: small;
+  }
+  .title {
+    border-bottom: none;
+    margin-right: 20px;
+  }
+  .home {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.main {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #666;
+  padding: 10px 5px 0;
+}

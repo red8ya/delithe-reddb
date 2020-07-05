@@ -10,8 +10,8 @@ const HeaderIcon = () => (
   </span>
 );
 
-const Header = ({children}) => (
-  <div className={styles.header}>
+const Header = ({className, children}) => (
+  <div className={`${styles.header} ${className || ''}`}>
     <HeaderIcon />
     {children}
   </div>

@@ -1,0 +1,100 @@
+.border {
+  width: 80px;
+  margin-left: 50px;
+  padding: 15px 0;
+  position: absolute;
+  top: 15px;
+  left: -95px;
+  &.down {
+    transform: rotate(55deg);
+    top: 0;
+  }
+  &.up {
+    transform: rotate(-55deg);
+    top: 30px;
+  }
+  &.active {
+    .light {
+      display: block !important;
+    }
+  }
+  &.on {
+    .borderInner {
+      background-color: #244f68;
+    }
+  }
+}
+.borderInner {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 80px;
+  height: 1px;
+}
+
+.light {
+  display: none;
+  width: 24px;
+  height: 10px;
+  background-color: rgba(183, 248, 259, 0.7);
+  border-radius: 14px 14px 14px 14px / 7px 7px 7px 7px;
+  padding: 1px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(183, 248, 259, 0.9), 0 0 16px rgba(183, 248, 259, 0.8), 0 0 15px rgba(183, 248, 259, 0.9);
+}
+.lightInner {
+  width: 20px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px 10px 10px 10px / 5px 5px 5px 5px;
+  box-shadow: 0 0 5px rgba(183, 248, 259, 0.9), 0 0 8px rgba(183, 248, 259, 0.8), 0 0 15px rgba(183, 248, 259, 0.9), 0 0 5px rgba(183, 248, 259, 0.4) inset;
+}
+
+@keyframes move {
+  0% {
+    margin-top: -1px;
+    margin-left: -12px;
+    width: 18px;
+    height: 2px;
+    padding: 0 3px;
+    box-shadow: 0 0 4px rgba(183, 248, 259, 0.9), 0 0 4px rgba(183, 248, 259, 0.8);
+  }
+  50% {
+    margin-left: 60px;
+    width: 24px;
+    height: 10px;
+    padding: 1px 2px;
+    opacity: 100%;
+  }
+  51% {
+    margin-left: 60px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 60px;
+    opacity: 0;
+  }
+}
+
+@keyframes move-inner {
+  0% {
+    width: 12px;
+    height: 2px;
+    box-shadow: 0 0 2px rgba(183, 248, 259, 0.9), 0 0 4px rgba(183, 248, 259, 0.8), 0 0 8px rgba(183, 248, 259, 0.9), 0 0 2px rgba(183, 248, 259, 0.4) inset;
+  }
+  50% {
+    width: 20px;
+    height: 8px;
+  }
+  100% {
+    width: 20px;
+    height: 8px;
+  }
+}
+
+.borderInner .light {
+  margin-top: -5px;
+  margin-left: -12px;
+  animation: move 2s linear 0s infinite;
+}
+.borderInner .lightInner {
+  animation: move-inner 2s linear 0s infinite;
+}
