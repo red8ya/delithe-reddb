@@ -6,12 +6,13 @@
   top: 15px;
   left: -95px;
   &.down {
-    transform: rotate(55deg);
-    top: 0;
+    transform: rotate(65deg);
+    top: -20px;
+    left: -100px;
   }
   &.up {
-    transform: rotate(-55deg);
-    top: 30px;
+    transform: rotate(-65deg);
+    top: 40px;
   }
   &.active {
     .light {
