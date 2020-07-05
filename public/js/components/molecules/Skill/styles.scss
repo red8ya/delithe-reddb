@@ -1,3 +1,15 @@
+@keyframes blink {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
 .skill {
   width: 120px;
   height: 50px;
@@ -9,6 +21,9 @@
   }
   opacity: 0.2;
   &.active {
+    animation: blink 2s linear 0s infinite;
+  }
+  &.on {
     opacity: 1;
   }
   &.canToggle {

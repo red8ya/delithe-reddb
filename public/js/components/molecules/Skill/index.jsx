@@ -3,9 +3,9 @@ import styles from './styles.scss';
 
 const typeNames = { passive: "パッシブ", active: "アクティブ" };
 
-const Skill = ({icon, name, jp, type, isActive, canToggle, onClick}) => (
+const Skill = ({icon, name, jp, type, isActive, canAcquire, canToggle, onClick}) => (
   <div className={styles.container} onClick={onClick}>
-    <div className={`${styles.skill} ${name ? '' : styles.empty} ${isActive ? styles.active : ''} ${canToggle ? styles.canToggle : ''}`}>
+    <div className={`${styles.skill} ${name ? '' : styles.empty} ${isActive ? styles.on : ''} ${canAcquire ? styles.active : ''} ${canToggle ? styles.canToggle : ''}`}>
       <div className={styles.icon}>{icon}</div>
       <div className={styles.name}>{name}</div>
       {jp && <div className={styles.jp}>JP <span className={styles.jpPoint}>{jp}</span></div>}
