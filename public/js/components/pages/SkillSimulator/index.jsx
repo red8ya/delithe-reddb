@@ -119,7 +119,7 @@ const decodeState = (state, job) => {
   const rowCount = stateDecoded.length / 3;
 
   return (
-    [[false, true, false]].concat(
+    [skills[job][0].map(x => !!x)].concat(
       Array.from(new Array(rowCount).keys()).map(i => (
         stateDecoded.slice(i * 3, i * 3 + 3).split('').map(x => !!parseInt(x))
       ))
@@ -128,8 +128,8 @@ const decodeState = (state, job) => {
 };
 
 const SkillSimulator = ({initialQuery}) => {
-  const job = initialQuery['job'] || jobs[0];
-  const data = initialQuery['d'] || '0'; //"36513277";
+  const job = skills[initialQuery['job']] ? initialQuery['job'] : jobs[0];
+  const data = initialQuery['d'] || '0';
   const dataDecoded = decodeState(data, job);
   skills[job][0].forEach((skill, i) => {
     if (skill) {
