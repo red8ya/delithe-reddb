@@ -11,10 +11,12 @@
   .jp {
     margin-left: 15px;
     font-size: small;
+    white-space: nowrap;
   }
   .title {
     border-bottom: none;
     margin-right: 20px;
+    white-space: nowrap;
   }
   .home {
     position: absolute;
