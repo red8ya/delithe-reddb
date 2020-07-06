@@ -10,7 +10,13 @@ import styles from './styles.scss';
 const decodeState = (state, job) => {
   let stateDecoded = parseInt(state).toString(2);
   stateDecoded = "0".repeat(Math.ceil(stateDecoded.length / 3) * 3 - stateDecoded.length) + stateDecoded;
-  stateDecoded = stateDecoded + "0".repeat((skills[job].length - 1) * 3 - stateDecoded.length);
+  stateDecoded = stateDecoded + "0".repeat(Math.max(0, (skills[job].length - 1) * 3 - stateDecoded.length));
+  const digitsCount = (skills[job].length - 1) * 3;
+  if (digitsCount < stateDecoded.length) {
+    console.warn(`${stateDecoded} (${stateDecoded.length}) is too long. Truncate in ${digitsCount} digits.`);
+    stateDecoded = stateDecoded.slice(0, digitsCount);
+  }
+
   const rowCount = stateDecoded.length / 3;
 
   return (
