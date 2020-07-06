@@ -1,0 +1,122 @@
+- - null
+  - name: インパルス
+    type: active
+  - null
+- - name: ヒュプノストライク
+    jp: 11
+    type: active
+    required:
+    - 1
+  - name: シャドウスラスト
+    jp: 12
+    type: active
+    required:
+    - 1
+  - name: サンダースラスト
+    jp: 13
+    type: active
+    required:
+    - 1
+- - name: リデュースマインド
+    jp: 24
+    type: active
+    required:
+    - 0
+  - name: 物攻アップ
+    jp: 20
+    type: passive
+    required:
+    - 1
+  - name: 回避アップ
+    jp: 24
+    type: passive
+    required:
+    - 2
+- - name: 物攻アップ
+    jp: 14
+    type: passive
+    required:
+    - 0
+  - name: 俊敏アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+    - 1
+    - 2
+  - name: 命中アップ
+    jp: 23
+    type: passive
+    required:
+    - 2
+- - null
+  - name: 雷属性攻撃力アップ
+    jp: 20
+    type: passive
+    required:
+    - 1
+  - name: アクセラレート
+    jp: 33
+    type: active
+    required:
+    - 1
+- - name: モンスター討伐ルピアップ
+    jp: 44
+    type: passive
+    required:
+    - 1
+  - name: クイック
+    jp: 22
+    type: active
+    required:
+    - 1
+  - name: パラライズストライク
+    jp: 18
+    type: active
+    required:
+    - 1
+- - name: 物攻アップ
+    jp: 25
+    type: passive
+    required:
+    - 1
+  - name: 雷耐性アップ
+    jp: 27
+    type: passive
+    required:
+    - 1
+  - name: 会心アップ
+    jp: 25
+    type: passive
+    required:
+    - 2
+- - name: ヴェノムストライク
+    jp: 29
+    type: active
+    required:
+    - 1
+  - name: コンセントレイト
+    jp: 30
+    type: active
+    required:
+    - 1
+  - null
+- - name: 俊敏アップ
+    jp: 36
+    type: passive
+    required:
+    - 0
+  - name: 物攻アップ
+    jp: 38
+    type: passive
+    required:
+    - 1
+  - null
+- - null
+  - name: 会心アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+    - 1
+  - null

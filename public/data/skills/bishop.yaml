@@ -1,0 +1,116 @@
+- - null
+  - name: ホーリーボール
+    type: active
+  - null
+- - name: 物防アップ
+    jp: 26
+    type: passive
+    required:
+    - 1
+  - name: ヒール
+    jp: 8
+    type: active
+    required:
+    - 1
+  - name: 魔防アップ
+    jp: 24
+    type: passive
+    required:
+    - 1
+- - name: MPアップ
+    jp: 26
+    type: passive
+    required:
+    - 1
+  - name: 魔防アップ
+    jp: 16
+    type: passive
+    required:
+    - 1
+  - name: MPアップ
+    jp: 10
+    type: passive
+    required:
+    - 1
+- - name: 物防アップ
+    jp: 14
+    type: passive
+    required:
+    - 0
+  - name: 魔防アップ
+    jp: 22
+    type: passive
+    required:
+    - 1
+  - name: ヒールウィンド
+    jp: 21
+    type: active
+    required:
+    - 2
+- - name: キュア
+    jp: 33
+    type: active
+    required:
+    - 0
+  - name: ディスオーダー
+    jp: 25
+    type: active
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 34
+    type: passive
+    required:
+    - 2
+- - name: エレメンタルレジスト
+    jp: 20
+    type: active
+    required:
+    - 1
+  - name: カームダウン
+    jp: 24
+    type: active
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 36
+    type: passive
+    required:
+    - 1
+- - name: 全悪性状態異常耐性アップ
+    jp: 46
+    type: passive
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 22
+    type: passive
+    required:
+    - 1
+  - name: マインドライズ
+    jp: 22
+    type: active
+    required:
+    - 1
+- - name: MPアップ
+    jp: 24
+    type: passive
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 22
+    type: passive
+    required:
+    - 1
+  - name: ブレスオブスピリット
+    jp: 30
+    type: active
+    required:
+    - 1
+- - null
+  - name: リザレクション
+    jp: 27
+    type: active
+    required:
+    - 0
+  - null

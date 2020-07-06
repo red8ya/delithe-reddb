@@ -1,0 +1,118 @@
+- - null
+  - name: ファイアアロー
+    type: active
+  - null
+- - name: MPアップ
+    jp: 12
+    type: passive
+    required:
+    - 1
+  - null
+  - name: ウォーターピラー
+    jp: 9
+    type: active
+    required:
+    - 1
+- - name: マナドレイン
+    jp: 27
+    type: active
+    required:
+    - 0
+  - name: 魔攻アップ
+    jp: 21
+    type: passive
+    required:
+    - 0
+    - 2
+  - name: 魔防アップ
+    jp: 12
+    type: passive
+    required:
+    - 2
+- - null
+  - name: 魔攻アップ
+    jp: 18
+    type: passive
+    required:
+    - 0
+    - 2
+  - name: リデュースパワー
+    jp: 24
+    type: active
+    required:
+    - 2
+- - name: 会心アップ
+    jp: 23
+    type: passive
+    required:
+    - 1
+  - name: レッサーヒール
+    jp: 20
+    type: active
+    required:
+    - 1
+  - name: 魔攻アップ
+    jp: 30
+    type: passive
+    required:
+    - 2
+- - name: MPアップ
+    jp: 27
+    type: passive
+    required:
+    - 1
+  - name: 魔防アップ
+    jp: 20
+    type: passive
+    required:
+    - 1
+  - name: アイシクルエッジ
+    jp: 24
+    type: active
+    required:
+    - 2
+- - name: ファイアーバード
+    jp: 28
+    type: active
+    required:
+    - 1
+  - name: 魔防アップ
+    jp: 27
+    type: passive
+    required:
+    - 1
+  - name: MPアップ
+    jp: 28
+    type: passive
+    required:
+    - 1
+- - name: 水耐性アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+  - name: 魔攻アップ
+    jp: 30
+    type: passive
+    required:
+    - 1
+  - name: フローズンノヴァ
+    jp: 34
+    type: active
+    required:
+    - 2
+- - name: ダブルスペル
+    jp: 33
+    type: active
+    required:
+    - 0
+  - name: 魔攻アップ
+    jp: 40
+    type: passive
+    required:
+    - 1
+  - name: マジックライズ
+    jp: 22
+    type: active
+    required:
+    - 2

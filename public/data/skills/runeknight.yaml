@@ -1,0 +1,117 @@
+- - null
+  - name: フォーススラッシュ
+    type: active
+  - null
+- - name: エリアルバスター
+    jp: 10
+    type: active
+    required:
+    - 1
+  - name: 魔攻アップ
+    jp: 21
+    type: passive
+    required:
+    - 1
+  - name: グランドバスター
+    jp: 12
+    type: active
+    required:
+    - 1
+- - null
+  - name: 全属性攻撃力アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+  - name: MPアップ
+    jp: 14
+    type: passive
+    required:
+    - 2
+- - name: パワーライズ
+    jp: 25
+    type: active
+    required:
+    - 1
+  - name: 物攻アップ
+    jp: 25
+    type: passive
+    required:
+    - 1
+  - name: 魔防アップ
+    jp: 18
+    type: passive
+    required:
+    - 1
+- - name: MPアップ
+    jp: 30
+    type: passive
+    required:
+    - 0
+  - null
+  - name: スペルリフレクター
+    jp: 35
+    type: active
+    required:
+    - 2
+- - name: 雷属性攻撃力アップ
+    jp: 15
+    type: passive
+    required:
+    - 0
+  - name: スプラッシュバスター
+    jp: 18
+    type: active
+    required:
+    - 0
+    - 2
+  - name: クリムゾンバスター
+    jp: 18
+    type: active
+    required:
+    - 2
+- - name: ライジングバスター
+    jp: 24
+    type: active
+    required:
+    - 0
+  - name: 魔防アップ
+    jp: 30
+    type: passive
+    required:
+    - 1
+  - name: HPアップ
+    jp: 23
+    type: passive
+    required:
+    - 2
+- - name: リデュースマジック
+    jp: 32
+    type: active
+    required:
+    - 0
+  - name: 魔攻アップ
+    jp: 32
+    type: passive
+    required:
+    - 1
+  - name: 物攻アップ
+    jp: 32
+    type: passive
+    required:
+    - 2
+- - name: アストラルバーン
+    jp: 33
+    type: active
+    required:
+    - 1
+  - name: 全属性攻撃力アップ
+    jp: 24
+    type: passive
+    required:
+    - 1
+  - name: HPアップ
+    jp: 33
+    type: passive
+    required:
+    - 2

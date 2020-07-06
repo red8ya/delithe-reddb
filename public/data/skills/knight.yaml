@@ -1,0 +1,120 @@
+- - null
+  - name: スラッシュ
+    type: active
+  - null
+- - name: スタンバッシュ
+    jp: 5
+    type: active
+    required:
+    - 1
+  - name: 物防アップ
+    jp: 8
+    type: passive
+    required:
+    - 1
+  - name: レイザースラッシュ
+    jp: 6
+    type: active
+    required:
+    - 1
+- - name: 物防アップ
+    jp: 15
+    type: passive
+    required:
+    - 1
+  - name: タウント
+    jp: 24
+    type: active
+    required:
+    - 1
+  - name: 物攻アップ
+    jp: 15
+    type: passive
+    required:
+    - 1
+- - name: ディヴォーション
+    jp: 20
+    type: active
+    required:
+    - 0
+  - name: 物防アップ
+    jp: 10
+    type: passive
+    required:
+    - 1
+  - name: HPアップ
+    jp: 25
+    type: passive
+    required:
+    - 2
+- - name: 物攻アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+  - name: 物攻アップ
+    jp: 21
+    type: passive
+    required:
+    - 0
+    - 2
+  - name: イリテイション
+    jp: 18
+    type: active
+    required:
+    - 2
+- - name: 魔防アップ
+    jp: 32
+    type: passive
+    required:
+    - 1
+  - name: プロヴィデンス
+    jp: 30
+    type: active
+    required:
+    - 1
+  - name: ソードブレイク
+    jp: 16
+    type: active
+    required:
+    - 1
+- - name: ウォークライ
+    jp: 36
+    type: active
+    required:
+    - 0
+  - name: HPアップ
+    jp: 32
+    type: passive
+    required:
+    - 1
+  - name: 物防アップ
+    jp: 24
+    type: passive
+    required:
+    - 2
+- - name: HPアップ
+    jp: 44
+    type: passive
+    required:
+    - 0
+  - name: プロボーグ
+    jp: 48
+    type: active
+    required:
+    - 1
+  - name: HPアップ
+    jp: 24
+    type: passive
+    required:
+    - 1
+    - 2
+- - null
+  - name: 物攻アップ
+    jp: 23
+    type: passive
+    required:
+    - 0
+    - 1
+    - 2
+  - null

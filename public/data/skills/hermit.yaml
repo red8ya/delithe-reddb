@@ -1,0 +1,118 @@
+- - null
+  - name: ブライトネス
+    type: active
+  - null
+- - name: ヒール
+    jp: 8
+    type: active
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 21
+    type: passive
+    required:
+    - 1
+  - name: セイクリッドロウ
+    jp: 14
+    type: active
+    required:
+    - 1
+- - name: 回魔アップ
+    jp: 18
+    type: passive
+    required:
+    - 0
+  - null
+  - name: ダークネス
+    jp: 22
+    type: active
+    required:
+    - 2
+- - name: 命中アップ
+    jp: 25
+    type: passive
+    required:
+    - 0
+  - name: 詠唱時間短縮
+    jp: 14
+    type: passive
+    required:
+    - 0
+    - 2
+  - null
+- - name: 回魔アップ
+    jp: 26
+    type: passive
+    required:
+    - 1
+  - name: 全悪性状態異常耐性アップ
+    jp: 28
+    type: passive
+    required:
+    - 1
+  - name: エレメンタルガード
+    jp: 24
+    type: active
+    required:
+    - 1
+- - name: ヒールウィンド
+    jp: 26
+    type: active
+    required:
+    - 0
+  - name: ケイオスゲート
+    jp: 28
+    type: active
+    required:
+    - 1
+  - name: 魔攻アップ
+    jp: 40
+    type: passive
+    required:
+    - 2
+- - name: MPアップ
+    jp: 24
+    type: passive
+    required:
+    - 0
+  - name: 魔攻アップ
+    jp: 30
+    type: passive
+    required:
+    - 0
+    - 2
+  - name: 魔攻アップ
+    jp: 28
+    type: passive
+    required:
+    - 2
+- - name: MPアップ
+    jp: 26
+    type: passive
+    required:
+    - 0
+  - name: イルミナート
+    jp: 24
+    type: active
+    required:
+    - 1
+  - name: 回避アップ
+    jp: 18
+    type: passive
+    required:
+    - 1
+- - name: リザレクション
+    jp: 32
+    type: active
+    required:
+    - 0
+  - name: 詠唱時間短縮
+    jp: 24
+    type: passive
+    required:
+    - 1
+  - name: ディスペル
+    jp: 30
+    type: active
+    required:
+    - 2

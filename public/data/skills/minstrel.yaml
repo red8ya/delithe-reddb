@@ -1,0 +1,122 @@
+- - null
+  - name: 飛翔するクレフ
+    type: active
+  - null
+- - name: 回魔アップ
+    jp: 12
+    type: passive
+    required:
+    - 1
+  - name: 回魔アップ
+    jp: 24
+    type: passive
+    required:
+    - 1
+  - name: 終局のパッサメッツォ
+    jp: 10
+    type: active
+    required:
+    - 1
+- - name: 癒しのエチュード
+    jp: 18
+    type: active
+    required:
+    - 0
+  - name: 回避アップ
+    jp: 22
+    type: passive
+    required:
+    - 0
+    - 2
+  - name: 戦刃のヴィヴァーチェ
+    jp: 15
+    type: active
+    required:
+    - 2
+- - name: 護りと祈りのアンセム
+    jp: 26
+    type: active
+    required:
+    - 0
+  - name: 暗闇のラメント
+    jp: 22
+    type: active
+    required:
+    - 0
+    - 2
+  - null
+- - name: 再生のカンタータ
+    jp: 22
+    type: active
+    required:
+    - 1
+  - name: 英雄のフリューゲル
+    jp: 27
+    type: active
+    required:
+    - 1
+  - name: 回避アップ
+    jp: 25
+    type: passive
+    required:
+    - 1
+- - name: MPアップ
+    jp: 20
+    type: passive
+    required:
+    - 0
+  - name: 物防アップ
+    jp: 26
+    type: passive
+    required:
+    - 1
+  - name: 鎮静のリコルダンツァ
+    jp: 30
+    type: active
+    required:
+    - 1
+- - name: 全悪性状態異常耐性アップ
+    jp: 26
+    type: passive
+    required:
+    - 0
+  - name: 魔防アップ
+    jp: 26
+    type: passive
+    required:
+    - 1
+  - null
+- - name: MPアップ
+    jp: 32
+    type: passive
+    required:
+    - 0
+  - name: 回魔アップ
+    jp: 23
+    type: passive
+    required:
+    - 1
+  - name: 命中アップ
+    jp: 35
+    type: passive
+    required:
+    - 1
+- - name: 城塞のパルティータ
+    jp: 36
+    type: active
+    required:
+    - 0
+  - null
+  - name: 回魔アップ
+    jp: 32
+    type: passive
+    required:
+    - 2
+- - null
+  - name: 魔攻アップ
+    jp: 21
+    type: passive
+    required:
+    - 0
+    - 2
+  - null
