@@ -242,3 +242,33 @@
   rarity: R
   type: ボス
   category: 魔獣
+ホブゴブリン_40:
+  name: ホブゴブリン
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 人型
+スカルゴブリン_40:
+  name: スカルゴブリン
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 人型
+鋸牙のデズモンド_100:
+  name: 鋸牙のデズモンド
+  lv: 100
+  rarity: R
+  type: ボス
+  category: 人型
+スパルトイ_180:
+  name: スパルトイ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+死臭のブランドー_180:
+  name: 死臭のブランドー
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
