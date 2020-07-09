@@ -19,7 +19,7 @@ const SkillRow = ({skills, prevSkills, onUpdate}) => (
             {skill && skill.required && skill.required.map(requiredIdx => {
               const direction = x < requiredIdx ? 'up' : x > requiredIdx ? 'down' : '';
               const status = skill.isActive && prevSkills[requiredIdx].isActive ? 'on'
-                : skill.canAcquire ? 'active'
+                : skill.canAcquire && prevSkills[requiredIdx].isActive ? 'active'
                 : 'off';
               return (
                 <Border key={`skill_border_${x}_${requiredIdx}`} status={status} direction={direction} />
