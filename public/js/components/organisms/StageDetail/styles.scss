@@ -34,3 +34,14 @@
 .lv {
   color: #aaa;
 }
+
+.windowFooter {
+  padding: 10px 0;
+  a {
+    font-weight: normal;
+  }
+  .angle {
+    display: inline-block;
+    margin-right: 4px;
+  }
+}
