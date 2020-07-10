@@ -7,11 +7,14 @@
     type: passive
     required:
     - 1
+    target: パーティ
+    only: ジョブ
   - name: 回魔アップ
     jp: 24
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: 終局のパッサメッツォ
     jp: 10
     type: active
@@ -65,6 +68,7 @@
     type: passive
     required:
     - 0
+    only: ジョブ
   - name: 物防アップ
     jp: 26
     type: passive
@@ -80,11 +84,13 @@
     type: passive
     required:
     - 0
+    only: ジョブ
   - name: 魔防アップ
     jp: 26
     type: passive
     required:
     - 1
+    only: 魔導書
   - null
 - - name: MPアップ
     jp: 32
@@ -96,6 +102,7 @@
     type: passive
     required:
     - 1
+    only: ハープ
   - name: 命中アップ
     jp: 35
     type: passive

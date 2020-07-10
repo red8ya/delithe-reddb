@@ -7,6 +7,7 @@
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: ヒール
     jp: 8
     type: active
@@ -27,11 +28,14 @@
     type: passive
     required:
     - 1
+    only: ジョブ
+    target: パーティ
   - name: MPアップ
     jp: 10
     type: passive
     required:
     - 1
+    only: ジョブ
 - - name: 物防アップ
     jp: 14
     type: passive
@@ -42,6 +46,7 @@
     type: passive
     required:
     - 1
+    only: メイス盾
   - name: ヒールウィンド
     jp: 21
     type: active
@@ -82,11 +87,13 @@
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: 回魔アップ
     jp: 22
     type: passive
     required:
     - 1
+    only: ケーン
   - name: マインドライズ
     jp: 22
     type: active

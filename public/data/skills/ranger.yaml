@@ -27,6 +27,7 @@
     type: passive
     required:
     - 1
+    only: 槍
   - name: 回避アップ
     jp: 24
     type: passive
@@ -44,6 +45,8 @@
     - 0
     - 1
     - 2
+    target: パーティ
+    only: ジョブ
   - name: 命中アップ
     jp: 23
     type: passive
@@ -55,6 +58,7 @@
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: アクセラレート
     jp: 33
     type: active
@@ -85,11 +89,13 @@
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: 会心アップ
     jp: 25
     type: passive
     required:
     - 2
+    only: 双剣
 - - name: ヴェノムストライク
     jp: 29
     type: active
@@ -119,4 +125,5 @@
     required:
     - 0
     - 1
+    only: ジョブ
   - null

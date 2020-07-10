@@ -24,6 +24,7 @@
     required:
     - 0
     - 2
+    only: ジョブ
   - name: 魔防アップ
     jp: 12
     type: passive
@@ -36,6 +37,8 @@
     required:
     - 0
     - 2
+    target: パーティ
+    only: ジョブ
   - name: リデュースパワー
     jp: 24
     type: active
@@ -81,21 +84,25 @@
     type: passive
     required:
     - 1
+    only: ワンド
   - name: MPアップ
     jp: 28
     type: passive
     required:
     - 1
+    only: 両手杖
 - - name: 水耐性アップ
     jp: 22
     type: passive
     required:
     - 0
+    only: ジョブ
   - name: 魔攻アップ
     jp: 30
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: フローズンノヴァ
     jp: 34
     type: active

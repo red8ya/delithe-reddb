@@ -23,6 +23,8 @@
     type: passive
     required:
     - 0
+    target: パーティ
+    only: ジョブ
   - name: MPアップ
     jp: 14
     type: passive
@@ -59,6 +61,7 @@
     type: passive
     required:
     - 0
+    only: ジョブ
   - name: スプラッシュバスター
     jp: 18
     type: active
@@ -85,6 +88,7 @@
     type: passive
     required:
     - 2
+    only: ジョブ
 - - name: リデュースマジック
     jp: 32
     type: active
@@ -95,11 +99,13 @@
     type: passive
     required:
     - 1
+    only: 両手杖
   - name: 物攻アップ
     jp: 32
     type: passive
     required:
     - 2
+    only: 両手剣
 - - name: アストラルバーン
     jp: 33
     type: active
@@ -110,6 +116,7 @@
     type: passive
     required:
     - 1
+    only: ジョブ
   - name: HPアップ
     jp: 33
     type: passive

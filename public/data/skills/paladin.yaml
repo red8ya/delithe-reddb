@@ -27,11 +27,14 @@
     type: passive
     required:
     - 1
+    target: パーティ
+    only: ジョブ
   - name: 物防アップ
     jp: 20
     type: passive
     required:
     - 2
+    only: 剣盾
 - - name: ディバインオーラ
     jp: 28
     type: active
@@ -59,6 +62,7 @@
     type: passive
     required:
     - 1
+    only: メイス盾
 - - name: 物防アップ
     jp: 18
     type: passive
@@ -79,6 +83,7 @@
     type: passive
     required:
     - 0
+    only: ジョブ
   - name: 魔防アップ
     jp: 24
     type: passive
@@ -89,6 +94,7 @@
     type: passive
     required:
     - 1
+    only: ジョブ
 - - name: 物防アップ
     jp: 20
     type: passive
@@ -112,6 +118,7 @@
     required:
     - 0
     - 1
+    only: ジョブ
   - name: HPアップ
     jp: 42
     type: passive
