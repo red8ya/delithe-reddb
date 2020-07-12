@@ -28,6 +28,7 @@
 
 .left, .right {
   border: 1.5px solid rgba(220, 220, 220, 0.6);
+  border-radius: 1px;
   width: 10.5px;
   height: 10.5px;
   transform: rotate(45deg) skew(15deg, 15deg);
