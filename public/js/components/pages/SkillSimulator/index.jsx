@@ -7,6 +7,149 @@ import { jobs, jobNames, skills } from '../../../data/skills';
 import { setQueryString } from '../../../query';
 import styles from './styles.scss';
 
+const availableJp = [
+  0, // 1
+  4,
+  9,
+  13,
+  16,
+  18,
+  21,
+  21,
+  24,
+  27, // 10
+  29,
+  30,
+  33,
+  36,
+  38,
+  40,
+  40,
+  42,
+  45,
+  48, // 20
+  50,
+  54,
+  57,
+  59,
+  63,
+  65,
+  65,
+  68,
+  70,
+  73, // 30
+  76,
+  80,
+  83,
+  85,
+  88,
+  91,
+  91,
+  93,
+  97,
+  99, // 40
+  100,
+  102,
+  104,
+  108,
+  108,
+  111,
+  113,
+  116,
+  119,
+  123, // 50
+  123,
+  127,
+  130,
+  132,
+  133,
+  137,
+  140,
+  142,
+  143,
+  146, // 60
+  150,
+  153,
+  154,
+  156,
+  159,
+  161,
+  164,
+  164,
+  168,
+  169, // 70
+  172,
+  172,
+  176,
+  178,
+  183,
+  187,
+  188,
+  192,
+  195,
+  197, // 80
+  200,
+  204,
+  207,
+  210,
+  210,
+  213,
+  217,
+  220,
+  223,
+  228, // 90
+  231,
+  233,
+  235,
+  238,
+  238,
+  239,
+  241,
+  243,
+  246,
+  250, // 100
+  253,
+  256,
+  256,
+  257,
+  257,
+  259,
+  262,
+  264,
+  264,
+  266, // 110
+  269,
+  272,
+  274,
+  274,
+  277,
+  279,
+  283,
+  285,
+  285,
+  288, // 120
+  288,
+  291,
+  291,
+  294,
+  297,
+  297,
+  300,
+  300,
+  300,
+  302, // 130
+  306,
+  308,
+  309,
+  311,
+  313,
+  317,
+  317,
+  320,
+  322,
+  325, // 140
+];
+
 const decodeState = (state, job) => {
   let stateDecoded = parseInt(state).toString(2);
   stateDecoded = "0".repeat(Math.ceil(stateDecoded.length / 3) * 3 - stateDecoded.length) + stateDecoded;
@@ -39,6 +182,13 @@ const SkillSimulator = ({initialQuery}) => {
   });
   const jp = dataDecoded.reduce((acc, row, i) => acc + row.reduce((acc, x, j) => acc + (x && skills[job][i][j] && skills[job][i][j].jp) || 0, 0), 0);
 
+  let lv = 1;
+  availableJp.forEach(n => {
+    if (n < jp) {
+      ++lv;
+    }
+  });
+
   const onSelectJob = (newJob) => {
     if (newJob !== job) {
       setQueryString({ job: newJob });
@@ -50,10 +200,12 @@ const SkillSimulator = ({initialQuery}) => {
       <div className={styles.header}>
         <Header className={styles.title}>スキルシミュレータ</Header>
         <JobSelector
+          className={styles.selector}
           jobs={jobs.map(key => { return { key, name: jobNames[key] } })}
           value={job}
           onChange={e => onSelectJob(e.target.value)} />
-        <div className={styles.jp}>必要JP: {jp}</div>
+        <div className={styles.jp}>JP: {jp}</div>
+        <div className={styles.jp}>Lv: {lv}</div>
         {/* <Button className={styles.home}><a href="/"><span className="fas fa-home"></span></a></Button> */}
       </div>
       <div className={styles.main}>

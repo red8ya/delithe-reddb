@@ -6,17 +6,19 @@
 .header {
   display: flex;
   flex-direction: row;
-  padding: 5px;
   padding-bottom: 10px;
   .jp {
-    margin-left: 15px;
     font-size: small;
     white-space: nowrap;
+    margin-left: 8px;
   }
   .title {
     border-bottom: none;
-    margin-right: 20px;
     white-space: nowrap;
+    margin-right: 10px;
+  }
+  .selector {
+    width: 100px;
   }
   .home {
     position: absolute;
