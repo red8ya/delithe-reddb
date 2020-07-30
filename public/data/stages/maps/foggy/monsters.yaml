@@ -272,3 +272,33 @@
   rarity: R
   type: ボス
   category: 人型
+ウィッチ_80:
+  name: ウィッチ
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
+ソーサレス_80:
+  name: ソーサレス
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
+ウィザード_80:
+  name: ウィザード
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
+英霊神官アンジェラ_120:
+  name: 英霊神官アンジェラ
+  lv: 120
+  rarity: R
+  type: ボス
+  category: 人型
+英霊騎士クラレンス_120:
+  name: 英霊騎士クラレンス
+  lv: 120
+  rarity: R
+  type: ボス
+  category: 人型
