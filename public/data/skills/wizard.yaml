@@ -123,3 +123,25 @@
     type: active
     required:
     - 2
+- - null
+  - name: 会心アップ
+    jp: 19
+    type: passive
+    required:
+    - 0
+    - 1
+    - 2
+  - null
+- - name: 火属性攻撃力アップ
+    jp: 20
+    type: passive
+    required:
+    - 1
+    only: ジョブ
+  - null
+  - name: 水属性攻撃力アップ
+    jp: 20
+    type: passive
+    required:
+    - 1
+    only: ジョブ

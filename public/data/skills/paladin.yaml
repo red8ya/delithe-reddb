@@ -124,3 +124,23 @@
     type: passive
     required:
     - 2
+- - null
+  - name: 回避アップ
+    jp: 15
+    type: passive
+    required:
+    - 1
+    - 2
+    only: ジョブ
+  - null
+- - name: 物防アップ
+    jp: 22
+    type: passive
+    required:
+    - 1
+  - null
+  - name: 魔防アップ
+    jp: 22
+    type: passive
+    required:
+    - 1

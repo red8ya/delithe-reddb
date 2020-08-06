@@ -125,3 +125,23 @@
     - 2
     only: ジョブ
   - null
+- - name: 魔防アップ
+    jp: 46
+    type: passive
+    required:
+    - 1
+  - null
+  - name: HPアップ
+    jp: 22
+    type: passive
+    required:
+    - 1
+    only: ジョブ
+- - null
+  - null
+  - name: 物攻アップ
+    jp: 24
+    type: passive
+    required:
+    - 2
+    only: 斧

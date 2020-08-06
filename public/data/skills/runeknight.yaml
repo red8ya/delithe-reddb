@@ -122,3 +122,24 @@
     type: passive
     required:
     - 2
+- - name: 魔攻アップ
+    jp: 18
+    type: passive
+    required:
+    - 0
+    - 1
+  - null
+  - name: 物攻アップ
+    jp: 19
+    type: passive
+    required:
+    - 1
+    - 2
+- - null
+  - name: HPアップ
+    jp: 23
+    type: passive
+    required:
+    - 0
+    - 2
+  - null
