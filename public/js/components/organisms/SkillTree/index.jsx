@@ -3,8 +3,6 @@ import SkillRow from '../SkillRow';
 import { setQueryString } from '../../../query';
 import styles from './styles.scss';
 
-const jpCap = 325;
-
 const encodeState = (state) => {
   return parseInt(state.slice(1).map(row => row.map(x => x ? "1" : "0").join('')).join(''), 2);
 };
@@ -20,7 +18,7 @@ const onUpdate = (job, data, x, y) => {
   setQueryString(query);
 };
 
-const SkillTree = ({job, skills, data, jp}) => {
+const SkillTree = ({job, skills, data, jp, jpCap}) => {
   const skillRows = skills.slice();
   skillRows.forEach((skillRow, x) => {
     skillRow.forEach((skill, y) => {

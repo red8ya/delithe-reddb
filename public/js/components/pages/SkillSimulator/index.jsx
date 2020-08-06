@@ -148,6 +148,7 @@ const availableJp = [
   320,
   322,
   325, // 140
+  327,
 ];
 
 const decodeState = (state, job) => {
@@ -188,6 +189,7 @@ const SkillSimulator = ({initialQuery}) => {
       ++lv;
     }
   });
+  const jpCap = availableJp[availableJp.length-1];
 
   const onSelectJob = (newJob) => {
     if (newJob !== job) {
@@ -209,7 +211,7 @@ const SkillSimulator = ({initialQuery}) => {
         {/* <Button className={styles.home}><a href="/"><span className="fas fa-home"></span></a></Button> */}
       </div>
       <div className={styles.main}>
-        <SkillTree job={job} skills={skills[job]} data={dataDecoded} jp={jp} />
+        <SkillTree job={job} skills={skills[job]} data={dataDecoded} jp={jp} jpCap={jpCap} />
       </div>
     </div>
   );
