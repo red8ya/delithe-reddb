@@ -25,7 +25,7 @@ const SkillTree = ({job, skills, data, jp, jpCap}) => {
       if (skill) {
         const isDefault = x === 0;
         const isActive = isDefault || data[x][y];
-        const canAcquire = !isActive && skill.required && skill.required.some(i => data[x-1][i]) && skill.jp + jp <= jpCap;
+        const canAcquire = !isActive && skill.required && skill.required.some(i => data[x-1][i]);// && skill.jp + jp <= jpCap;
         Object.assign(skill, { isActive, isDefault, canAcquire });
       }
     });

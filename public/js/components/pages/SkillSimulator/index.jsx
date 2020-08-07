@@ -185,13 +185,18 @@ const SkillSimulator = ({initialQuery}) => {
   });
   const jp = dataDecoded.reduce((acc, row, i) => acc + row.reduce((acc, x, j) => acc + (x && skills[job][i][j] && skills[job][i][j].jp) || 0, 0), 0);
 
-  let lv = 1;
-  availableJp.forEach(n => {
-    if (n < jp) {
-      ++lv;
-    }
-  });
   const jpCap = availableJp[availableJp.length-1];
+  let lv = 1;
+  if (jpCap < jp) {
+    lv = null;
+  }
+  else {
+    availableJp.forEach(n => {
+      if (n < jp) {
+        ++lv;
+      }
+    });
+  }
 
   const onSelectJob = (newJob) => {
     if (newJob !== job) {
@@ -209,7 +214,7 @@ const SkillSimulator = ({initialQuery}) => {
           value={job}
           onChange={e => onSelectJob(e.target.value)} />
         <div className={styles.jp}>JP: {jp}</div>
-        <div className={styles.jp}>Lv: {lv}</div>
+        <div className={styles.jp}>Lv: {lv || '???'}</div>
         {/* <Button className={styles.home}><a href="/"><span className="fas fa-home"></span></a></Button> */}
       </div>
       <div className={styles.main}>
