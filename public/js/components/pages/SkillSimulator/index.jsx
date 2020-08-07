@@ -149,6 +149,8 @@ const availableJp = [
   322,
   325, // 140
   327,
+  328,
+  328,
 ];
 
 const decodeState = (state, job) => {
