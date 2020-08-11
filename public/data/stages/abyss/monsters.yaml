@@ -497,3 +497,63 @@
   rarity: R
   type: エリート
   category: 魔
+コング:
+  lv: 140
+  rarity: R
+  type: エリート
+  category: 魔獣
+アストロガーゴイル:
+  lv: 140
+  rarity: N
+  type: エリート
+  category: 魔
+ブリスル:
+  lv: 140
+  rarity: R
+  type: エリート
+  category: 魔獣
+ブレイブナイト:
+  lv: 146
+  rarity: R
+  type: エリート
+  category: 人型
+アークウィザード:
+  lv: 146
+  rarity: N
+  type: エリート
+  category: 人型
+ブランドン:
+  lv: 146
+  rarity: R
+  type: エリート
+  category: 人型
+ナイトリッチ:
+  lv: 153
+  rarity: R
+  type: エリート
+  category: 魔
+アフカル:
+  lv: 153
+  rarity: N
+  type: エリート
+  category: 魔
+アグリッパ:
+  lv: 153
+  rarity: R
+  type: エリート
+  category: 魔
+サバトデビル:
+  lv: 158
+  rarity: R
+  type: エリート
+  category: 魔
+スパークデーモン:
+  lv: 158
+  rarity: N
+  type: エリート
+  category: 魔
+マンティコア:
+  lv: 158
+  rarity: R
+  type: エリート
+  category: 魔

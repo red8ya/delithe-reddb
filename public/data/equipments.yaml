@@ -233,3 +233,10 @@
   part: 顔
   type: アクセサリ
   status: []
+色欲の円環:
+  part: 指
+  type: アクセサリ
+  status:
+    - MP
+    - 魔攻
+    - 回魔

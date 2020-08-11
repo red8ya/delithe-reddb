@@ -352,6 +352,60 @@
           status: 俊敏
         - name: アマリリス
           status: 回魔
+- name: 誓い
+  pages:
+    - name: 10章-1
+      anima:
+        - name: バーバレス
+          status: 魔防
+        - name: ディザスター
+          status: 回避
+        - name: タロス
+          status: 回魔
+        - name: スチュペンデミス
+          status: 俊敏
+        - name: ガラ
+          status: 魔攻
+    - name: 10章-2
+      anima:
+        - name: ティレニア
+          status: HP
+        - name: スキュラ
+          status: 回避
+        - name: カスケード
+          status: 物攻
+        - name: ヴァースキ
+          status: 命中
+        - name: デュレス
+          status: 魔防
+- name: 第五魔境郡
+  pages:
+    - name: フェルレーンの浮島
+      anima:
+        - name: マンティコア
+          status: 魔防
+        - name: ブランドん
+          status: 物攻
+        - name: ブリスル
+          status: 会心
+        - name: アグリッパ
+          status: 魔攻
+    - name: ロッシュノート水没都市
+      anima:
+        - name: ワスカラン
+          status: 会心
+        - name: ダーティネイル
+          status: 俊敏
+        - name: ヴァーリン
+          status: 物攻
+        - name: フリアイ
+          status: 回魔
+        - name: カーリヤ
+          status: 魔防
+        - name: アンドラス
+          status: HP
+        - name: 太古の巨兵
+          status: 物防
 - name: ギルドダンジョン
   pages:
     - name: ギルドダンジョン
