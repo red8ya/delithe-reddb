@@ -162,7 +162,11 @@ const availableJp = [
   342,
   344,
   344,
+  347,
+  349,
 ];
+
+const jpCap = 385;
 
 const decodeState = (state, job) => {
   let stateDecoded = parseInt(state).toString(2);
@@ -196,9 +200,9 @@ const SkillSimulator = ({initialQuery}) => {
   });
   const jp = dataDecoded.reduce((acc, row, i) => acc + row.reduce((acc, x, j) => acc + (x && skills[job][i][j] && skills[job][i][j].jp) || 0, 0), 0);
 
-  const jpCap = availableJp[availableJp.length-1];
+  const knownJpCap = availableJp[availableJp.length-1];
   let lv = 1;
-  if (jpCap < jp) {
+  if (knownJpCap < jp) {
     lv = null;
   }
   else {
