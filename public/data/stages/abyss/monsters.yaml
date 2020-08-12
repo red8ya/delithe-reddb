@@ -557,3 +557,79 @@
   rarity: R
   type: エリート
   category: 魔
+# ロッシュノート水没都市
+ドレッドエイプ:
+  lv: 160
+  rarity: R
+  type: エリート
+  category: 魔獣
+マスクガーゴイル:
+  lv: 160
+  rarity: R
+  type: エリート
+  category: 魔
+アンドラス:
+  lv: 160
+  rarity: R
+  type: エリート
+  category: 魔
+ヴァーリン:
+  lv: 160
+  rarity: R
+  type: エリート
+  category: 魔獣
+エイジドハーピー:
+  lv: 166
+  rarity: R
+  type: エリート
+  category: 魔獣
+ルインパンサー:
+  lv: 166
+  rarity: R
+  type: エリート
+  category: 魔獣
+ダーティネイル:
+  lv: 166
+  rarity: R
+  type: エリート
+  category: 魔獣
+フリアイ:
+  lv: 166
+  rarity: R
+  type: エリート
+  category: 魔獣
+フレイムナーガ:
+  lv: 171
+  rarity: R
+  type: エリート
+  category: 竜
+ルインゴーレム:
+  lv: 171
+  rarity: R
+  type: エリート
+  category: 魔
+太古の巨兵:
+  lv: 171
+  rarity: R
+  type: エリート
+  category: 魔
+カーリヤ:
+  lv: 171
+  rarity: R
+  type: エリート
+  category: 竜
+ダークワイバーン:
+  lv: 177
+  rarity: R
+  type: エリート
+  category: 竜
+ネモフィラ:
+  lv: 177
+  rarity: R
+  type: エリート
+  category: 聖
+ワスカラン:
+  lv: 177
+  rarity: R
+  type: エリート
+  category: 竜
