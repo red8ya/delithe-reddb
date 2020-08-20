@@ -302,3 +302,51 @@
   rarity: R
   type: ボス
   category: 人型
+レッサーガーゴイル_70:
+  name: レッサーガーゴイル
+  lv: 70
+  rarity: R
+  type: ノーマル
+  category: 魔
+ヴァンパイア_70:
+  name: ヴァンパイア
+  lv: 70
+  rarity: R
+  type: ノーマル
+  category: 魔
+ウィザード_180:
+  name: ウィザード
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ヴァンパイア_180:
+  name: ヴァンパイア
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ノートリアス_180:
+  name: ノートリアス
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ドラキュラ_180:
+  name: ドラキュラ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ジェイラー・ロック_180:
+  name: ジェイラー・ロック
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ゴールデンプルゥ_180:
+  name: ゴールデンプルゥ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
