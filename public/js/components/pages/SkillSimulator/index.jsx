@@ -185,6 +185,9 @@ const availableJp = [
   375,
   379,
   379,
+  381,
+  382,
+  385, // 180
 ];
 
 const jpCap = 385;
