@@ -1,0 +1,76 @@
+- name: NORMAL
+  stages:
+    - name: SMALL
+      cp: 500000
+      monsters:
+        - name: ハウラス
+          lv: 40
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド防具ボックス
+        - ルピ(4000)
+    - name: MEDIUM
+      cp: 500000
+      monsters:
+        - name: トレイター
+          lv: 40
+          rarity: R
+          type: ボス
+          category: 人型
+      items:
+        - ギルド装飾ボックス
+        - ルピ(6500)
+    - name: LARGE
+      cp: 500000
+      monsters:
+        - name: パーガトリー
+          lv: 40
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - パーガトリー討伐ボックス(2)
+        - ギルド武器ボックス
+        - RSP(150)
+        - ルピ(9500)
+- name: HARD
+  stages:
+    - name: SMALL
+      cp: 900000
+      monsters:
+        - name: ハウラス
+          lv: 95
+          rarity: R
+          type: ボス
+          category: 魔獣
+      items:
+        - ギルド防具ボックス
+        - ルピ(4500)
+    - name: MEDIUM
+      cp: 900000
+      monsters:
+        - name: トレイター
+          lv: 95
+          rarity: R
+          type: ボス
+          category: 人型
+      items:
+        - ギルド装飾ボックス
+        - ルピ(7500)
+    - name: LARGE
+      cp: 900000
+      monsters:
+        - name: パーガトリー
+          lv: 95
+          rarity: R
+          type: ボス
+          category: 魔
+      items:
+        - パーガトリー討伐ボックス(2)
+        - パーガトリーのアニマ
+        - ギルド武器ボックス
+        - ギルド装飾ボックス
+        - RSP(180)
+        - ルピ(10000)
