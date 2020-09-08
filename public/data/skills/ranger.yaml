@@ -133,14 +133,14 @@
     only: ジョブ
   - null
 - - name: 物攻アップ
-    jp: 22
+    jp: 25
     type: passive
     required:
     - 1
     only: ジョブ
   - null
   - name: 物攻アップ
-    jp: 25
+    jp: 18
     type: passive
     required:
     - 1
