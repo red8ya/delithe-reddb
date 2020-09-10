@@ -350,3 +350,21 @@
   rarity: R
   type: ボス
   category: 魔
+フォレストウルフ_40:
+  name: フォレストウルフ
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔獣
+スケルトンソルジャー_180:
+  name: スケルトンソルジャー
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+スケルトンウォーリア_180:
+  name: スケルトンウォーリア
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
