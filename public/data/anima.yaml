@@ -378,6 +378,32 @@
           status: 命中
         - name: デュレス
           status: 魔防
+- name: エルフ王・メイセリス
+  pages:
+    - name: 11章-1
+      anima:
+        - name: 天狼兵団・守護兵長
+          status: 魔攻
+        - name: ツェペッシュ
+          status: 俊敏
+        - name: ゲーティア
+          status: 回魔
+        - name: エグザイル
+          status: 命中
+        - name: ヴィシャス
+          status: HP
+    - name: 11章-2
+      anima:
+        - name: ダンデライオン
+          status: 回避
+        - name: プロトステガ
+          status: 魔防
+        - name: デスマトケリス
+          status: 物防
+        - name: アルマロス
+          status: 俊敏
+        - name: ラミュロス
+          status: MP
 - name: 第五魔境郡
   pages:
     - name: フェルレーンの浮島
@@ -416,6 +442,10 @@
             - 魔防
         - name: ニーズヘッグ
           status: 会心
+        - name: パーガトリー
+          status:
+            - HP
+            - 俊敏
 - name: 英雄の秘録
   pages:
     - name: 英雄の秘録
@@ -424,6 +454,8 @@
           status: HP
         - name: ドラゴンゾンビ
           status: 物攻
+        - name: 不動のパズズ
+          status: 物防
 - name: 終焉の神々
   pages:
     - name: 終焉の神々
@@ -438,3 +470,27 @@
             - MP
             - 魔攻
             - 回避
+        - name: 強欲のユリアナ
+          status:
+            - 魔攻
+            - 回魔
+            - 会心
+- name: 王の復活
+  pages:
+    - name: 王の復活
+      anima:
+        - name: グランケルベロス
+          status:
+            - 物攻
+            - 魔防
+            - 回避
+        - name: ノーライフキング
+          status:
+            - HP
+            - 命中
+            - 会心
+        - name: セイレーンクイーン
+          status:
+            - MP
+            - 回魔
+            - 俊敏
