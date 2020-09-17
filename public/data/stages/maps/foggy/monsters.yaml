@@ -368,3 +368,15 @@
   rarity: R
   type: ボス
   category: 魔
+アークエンジェル_80:
+  name: アークエンジェル
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 聖
+雷王ガルーダ_180:
+  name: 雷王ガルーダ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 聖
