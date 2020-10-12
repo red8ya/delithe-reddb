@@ -126,10 +126,20 @@ const Home = ({initialQuery}) => {
               );
             }
           })()}
-      {filterChapters([{name: "絶域の標", episodes: [{
-        name: "霧の大地",
-        stages: maps.foggy
-      }]}], query).map((chapter, i) => (
+      {filterChapters([{name: "絶域の標", episodes: [
+        {
+          name: "おしゃれ",
+          stages: maps.fashion
+        },
+        {
+          name: "アクセ・育成",
+          stages: maps.accessory
+        },
+        {
+          name: "チャレンジ",
+          stages: maps.challenge
+        }
+      ]}], query).map((chapter, i) => (
         <Chapter key={`maps_${chapter.name}_${i}`} chapter={chapter}
           onClick={(stage, episode) => setStage([stage, episode, null])}
         />

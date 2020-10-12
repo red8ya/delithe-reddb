@@ -1,9 +1,15 @@
-import foggyStages from '../../../data/stages/maps/foggy/stages.yaml';
-import foggyMonsters from '../../../data/stages/maps/foggy/monsters.yaml';
+import fashionStages from '../../../data/stages/maps/fashion/stages.yaml';
+import fashionMonsters from '../../../data/stages/maps/fashion/monsters.yaml';
+import accessoryStages from '../../../data/stages/maps/accessory/stages.yaml';
+import accessoryMonsters from '../../../data/stages/maps/accessory/monsters.yaml';
+import challengeStages from '../../../data/stages/maps/challenge/stages.yaml';
+import challengeMonsters from '../../../data/stages/maps/challenge/monsters.yaml';
 import { mergeMonsters } from '../utils';
 
 const maps = {
-  foggy: foggyStages.map(stage => mergeMonsters(stage, foggyMonsters))
+  fashion: fashionStages.map(stage => mergeMonsters(stage, fashionMonsters)),
+  accessory: accessoryStages.map(stage => mergeMonsters(stage, accessoryMonsters)),
+  challenge: challengeStages.map(stage => mergeMonsters(stage, challengeMonsters))
 };
 
 export default maps;

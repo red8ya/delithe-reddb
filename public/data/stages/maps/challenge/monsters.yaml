@@ -1,0 +1,72 @@
+削剥のベニチオ_180:
+  name: 削剥のベニチオ
+  lv: 180
+  rarity: HR
+  type: ボス
+  category: 人型
+刻削のベニチオ_180:
+  name: 刻削のベニチオ
+  lv: 180
+  rarity: HR
+  type: ボス
+  category: 人型
+タイタン_180:
+  name: タイタン
+  lv: 180
+  rarity: SR
+  type: ボス
+  category: 人型
+アスピドケロン_180:
+  name: アスピドケロン
+  lv: 180
+  rarity: SR
+  type: ボス
+  category: 魔獣
+ラーズ_180:
+  name: ラーズ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
+マグニス_180:
+  name: マグニス
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
+スパルトイ_180:
+  name: スパルトイ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+死臭のブランドー_180:
+  name: 死臭のブランドー
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
+ヴァンパイア_180:
+  name: ヴァンパイア
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ノートリアス_180:
+  name: ノートリアス
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+ドラキュラ_180:
+  name: ドラキュラ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔
+雷王ガルーダ_180:
+  name: 雷王ガルーダ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 聖

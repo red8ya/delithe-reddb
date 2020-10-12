@@ -1,0 +1,124 @@
+アクアマリンプルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+ミアズマプルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+ブラッディープルゥ:
+  lv: 30
+  rarity: R
+  type: ノーマル
+  category: 魔
+スカルヘッド:
+  lv: 45
+  rarity: R
+  type: ノーマル
+  category: 魔
+ホーンドデビル:
+  lv: 45
+  rarity: R
+  type: ノーマル
+  category: 魔
+ピクシー_40:
+  name: ピクシー
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 聖
+サキュバス_40:
+  name: サキュバス
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+マーメイド_40:
+  name: マーメイド
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 聖
+スライムテンタクル_40:
+  name: スライムテンタクル
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+デビルハーピー_40:
+  name: デビルハーピー
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔獣
+フォレストウルフ_40:
+  name: フォレストウルフ
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔獣
+ヴァンパイア:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+ノートリアス:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+ドラキュラ:
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 魔
+ホブゴブリン_40:
+  name: ホブゴブリン
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 人型
+スカルゴブリン_40:
+  name: スカルゴブリン
+  lv: 40
+  rarity: R
+  type: ノーマル
+  category: 人型
+アークエンジェル_80:
+  name: アークエンジェル
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 聖
+レッサーガーゴイル_70:
+  name: レッサーガーゴイル
+  lv: 70
+  rarity: R
+  type: ノーマル
+  category: 魔
+ヴァンパイア_70:
+  name: ヴァンパイア
+  lv: 70
+  rarity: R
+  type: ノーマル
+  category: 魔
+ウィッチ_80:
+  name: ウィッチ
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
+ソーサレス_80:
+  name: ソーサレス
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
+ウィザード_80:
+  name: ウィザード
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 人型
