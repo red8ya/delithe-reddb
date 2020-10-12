@@ -126,7 +126,7 @@ const StageDetail = ({name, cp, monsters = [], items = [], chapter, episode, isO
             </div>)}
         </div>
       </div>
-      {episode.name === '霧の大地'
+      {episode.isMap
         ? <div className={styles.windowFooter}>
             <span className={`fa fa-angle-double-right ${styles.angle}`}></span>
             <a href={`/?freeword=${name}`}>この地図の入手場所を見る</a>

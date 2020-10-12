@@ -129,14 +129,17 @@ const Home = ({initialQuery}) => {
       {filterChapters([{name: "絶域の標", episodes: [
         {
           name: "おしゃれ",
+          isMap: true,
           stages: maps.fashion
         },
         {
           name: "アクセ・育成",
+          isMap: true,
           stages: maps.accessory
         },
         {
           name: "チャレンジ",
+          isMap: true,
           stages: maps.challenge
         }
       ]}], query).map((chapter, i) => (
