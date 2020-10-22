@@ -133,9 +133,14 @@ const Home = ({initialQuery}) => {
           stages: maps.fashion
         },
         {
-          name: "アクセ・育成",
+          name: "アクセサリ",
           isMap: true,
           stages: maps.accessory
+        },
+        {
+          name: "育成",
+          isMap: true,
+          stages: maps.training
         },
         {
           name: "チャレンジ",

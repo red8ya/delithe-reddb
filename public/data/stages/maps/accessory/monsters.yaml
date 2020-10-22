@@ -1,65 +1,8 @@
-メタプルゥ_9999:
-  name: メタプルゥ
-  lv: 9999
-  rarity: R
-  type: ノーマル
-  category: 魔
-ゴールデンプルゥ_9999:
-  name: ゴールデンプルゥ
-  lv: 9999
-  rarity: R
-  type: ノーマル
-  category: 魔
-ゴールデンプルゥ:
-  lv: 20
-  rarity: HN
-  type: ボス
-  category: 魔
-プルゥ:
-  lv: 40
-  rarity: R
-  type: ボス
-  category: 魔
-ラージプルゥ:
-  lv: 40
-  rarity: R
-  type: ボス
-  category: 魔
-デュナミス:
-  lv: 40
-  rarity: R
-  type: ボス
-  category: 聖
 サメフエンジェル:
   lv: 80
   rarity: R
   type: ボス
   category: 聖
-スケルトンソルジャー:
-  lv: 60
-  rarity: R
-  type: ボス
-  category: 魔
-死臭のブランドー:
-  lv: 60
-  rarity: HR
-  type: ボス
-  category: 人型
-スケルトンウォーリア:
-  lv: 60
-  rarity: R
-  type: ボス
-  category: 魔
-ピクシー:
-  lv: 60
-  rarity: N
-  type: ボス
-  category: 聖
-オオヒルメムチ:
-  lv: 60
-  rarity: HR
-  type: ボス
-  category: 人型
 雷王ガルーダ:
   lv: 90
   rarity: R
@@ -93,24 +36,6 @@
   rarity: R
   type: ボス
   category: 聖
-ワイルドウルフ_100:
-  name: ワイルドウルフ
-  lv: 100
-  rarity: R
-  type: ボス
-  category: 魔獣
-ラナリーシェ_100:
-  name: ラナリーシェ
-  lv: 100
-  rarity: R
-  type: ボス
-  category: 人型
-ニンブルパンサー_100:
-  name: ニンブルパンサー
-  lv: 100
-  rarity: R
-  type: ボス
-  category: 魔獣
 タイタン:
   lv: 100
   rarity: SR
@@ -128,30 +53,6 @@
   category: 人型
 マグニス:
   lv: 165
-  rarity: R
-  type: ボス
-  category: 人型
-ダイアウルフ_150:
-  name: ダイアウルフ
-  lv: 150
-  rarity: R
-  type: ボス
-  category: 魔獣
-レッドワイバーン_150:
-  name: レッドワイバーン
-  lv: 150
-  rarity: R
-  type: ボス
-  category: 竜
-英霊神官アンジェラ_120:
-  name: 英霊神官アンジェラ
-  lv: 120
-  rarity: R
-  type: ボス
-  category: 人型
-英霊騎士クラレンス_120:
-  name: 英霊騎士クラレンス
-  lv: 120
   rarity: R
   type: ボス
   category: 人型
@@ -173,17 +74,6 @@
   rarity: R
   type: ボス
   category: 魔
-削剥のベニチオ:
-  lv: 80
-  rarity: HR
-  type: ボス
-  category: 人型
-刻削のベニチオ_80:
-  name: 刻削のベニチオ
-  lv: 80
-  rarity: HR
-  type: ボス
-  category: 人型
 スケルトンソルジャー_180:
   name: スケルトンソルジャー
   lv: 180
@@ -202,3 +92,9 @@
   rarity: R
   type: ボス
   category: 魔
+エルフの呪術師_180:
+  name: エルフの呪術師
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
