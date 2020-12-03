@@ -139,3 +139,15 @@
   rarity: R
   type: ボス
   category: 魔獣
+ドラキュラ_80:
+  name: ドラキュラ
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 魔
+ホワイトハーピー_80:
+  name: ホワイトハーピー
+  lv: 80
+  rarity: R
+  type: ノーマル
+  category: 魔獣

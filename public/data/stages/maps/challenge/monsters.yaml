@@ -22,6 +22,18 @@
   rarity: SR
   type: ボス
   category: 魔獣
+タイタン_180_R:
+  name: タイタン
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 人型
+アスピドケロン_180_R:
+  name: アスピドケロン
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔獣
 ラーズ_180:
   name: ラーズ
   lv: 180
@@ -70,3 +82,15 @@
   rarity: R
   type: ボス
   category: 聖
+ダイアウルフ_180:
+  name: ダイアウルフ
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 魔獣
+レッドワイバーン_180:
+  name: レッドワイバーン
+  lv: 180
+  rarity: R
+  type: ボス
+  category: 竜

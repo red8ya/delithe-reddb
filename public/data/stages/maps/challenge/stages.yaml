@@ -9,7 +9,8 @@
   monsters:
     - タイタン_180
     - アスピドケロン_180
-  items: []
+  items:
+    - 風雪の地図 (VERY HARD)
 - name: 血闘の地図 (HARD)
   cp: 1400000
   monsters:
@@ -33,4 +34,16 @@
   cp: 2200000
   monsters:
     - 雷王ガルーダ_180
+  items: []
+- name: 蛍光の地図 (HARD)
+  cp: 2500000
+  monsters:
+    - ダイアウルフ_180
+    - レッドワイバーン_180
+  items: []
+- name: 風雪の地図 (VERY HARD)
+  cp: 3500000
+  monsters:
+    - タイタン_180_R
+    - アスピドケロン_180_R
   items: []
