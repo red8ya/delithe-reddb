@@ -143,3 +143,14 @@
     - 0
     - 2
   - null
+- - name: 命中アップ
+    jp: 12
+    type: passive
+    required:
+      - 1
+  - name: ルーンドライヴ
+    jp: 28
+    type: active
+    required:
+      - 1
+  - null

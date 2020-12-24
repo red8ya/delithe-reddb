@@ -138,10 +138,22 @@
     required:
     - 1
     only: ジョブ
-  - null
+  - name: 回魔アップ
+    jp: 15
+    type: passive
+    required:
+      - 1
   - name: 魔攻アップ
     jp: 24
     type: passive
     required:
     - 1
     only: ジョブ
+- - null
+  - name: マイティバリアー
+    jp: 25
+    type: active
+    required:
+      - 0
+      - 2
+  - null

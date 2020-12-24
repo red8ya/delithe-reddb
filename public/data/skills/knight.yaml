@@ -115,7 +115,11 @@
     required:
     - 1
     - 2
-- - null
+- - name: 物攻アップ
+    jp: 14
+    type: passive
+    required:
+      - 0
   - name: 物攻アップ
     jp: 23
     type: passive
@@ -138,7 +142,12 @@
     - 1
     only: ジョブ
 - - null
-  - null
+  - name: ロイヤルガーディアン
+    jp: 26
+    type: active
+    required:
+      - 0
+      - 2
   - name: 物攻アップ
     jp: 24
     type: passive

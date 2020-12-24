@@ -91,7 +91,11 @@
     required:
     - 1
     only: 魔導書
-  - null
+  - name: MPアップ
+    jp: 10
+    type: passive
+    required:
+      - 2
 - - name: MPアップ
     jp: 32
     type: passive
@@ -145,5 +149,9 @@
     type: passive
     required:
     - 1
-  - null
+  - name: 断絶のオーヴァチュア
+    jp: 30
+    type: active
+    required:
+      - 1
   - null

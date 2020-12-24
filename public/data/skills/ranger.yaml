@@ -138,9 +138,21 @@
     required:
     - 1
     only: ジョブ
-  - null
+  - name: 回避アップ
+    jp: 14
+    type: passive
+    required:
+      - 1
   - name: 物攻アップ
     jp: 18
     type: passive
     required:
     - 1
+- - null
+  - name: ヴェノムブレイザー
+    jp: 26
+    type: active
+    required:
+      - 0
+      - 2
+  - null

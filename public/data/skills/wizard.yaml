@@ -123,7 +123,11 @@
     type: active
     required:
     - 2
-- - null
+- - name: 魔攻アップ
+    jp: 14
+    type: passive
+    required:
+      - 0
   - name: 会心アップ
     jp: 19
     type: passive
@@ -145,3 +149,10 @@
     required:
     - 1
     only: ジョブ
+- - null
+  - name: マテリアルフォース
+    jp: 26
+    type: active
+    required:
+      - 0
+      - 2
