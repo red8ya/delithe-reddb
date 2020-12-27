@@ -188,9 +188,17 @@ const availableJp = [
   381,
   382,
   385, // 180
+  387,
+  387,
+  391,
+  393,
+  396,
+  400,
+  400,
+  402,
 ];
 
-const jpCap = null; //385;
+const jpCap = 430;
 
 const decodeState = (state, job) => {
   let stateDecoded = parseInt(state).toString(2);
