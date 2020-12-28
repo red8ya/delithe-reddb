@@ -196,6 +196,8 @@ const availableJp = [
   400,
   400,
   402,
+  404,
+  409, // 190
 ];
 
 const jpCap = 430;
