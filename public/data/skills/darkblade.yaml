@@ -1,0 +1,161 @@
+- - null
+  - name: ダークスラッシュ
+    type: active
+  - null
+- - null
+  - name: デスブリンガー
+    type: active
+    jp: 12
+    required:
+      - 1
+  - null
+- - name: 物攻アップ
+    type: passive
+    jp: 9
+    required:
+      - 1
+  - name: 物攻アップ
+    type: passive
+    jp: 27
+    target: パーティ
+    only: ジョブ
+    required:
+      - 1
+  - name: 会心アップ
+    type: passive
+    jp: 16
+    required:
+      - 1
+- - null
+  - name: シャドウブレイド
+    type: active
+    jp: 20
+    required:
+      - 0
+      - 2
+  - null
+- - name: 命中アップ
+    type: passive
+    jp: 30
+    required:
+      - 1
+  - name: 闇属性攻撃力アップ
+    type: passive
+    jp: 18
+    only: ジョブ
+    required:
+      - 1
+  - name: 会心アップ
+    type: passive
+    jp: 28
+    required:
+      - 1
+- - name: HPアップ
+    type: passive
+    jp: 36
+    required:
+      - 0
+  - name: 俊敏アップ
+    type: passive
+    jp: 32
+    required:
+      - 1
+  - name: デスパレート
+    type: active
+    jp: 25
+    required:
+      - 2
+- - name: ブラッドソード
+    type: active
+    jp: 24
+    required:
+      - 0
+  - name: 物攻アップ
+    type: passive
+    jp: 26
+    only: ジョブ
+    required:
+      - 0
+      - 2
+  - null
+- - name: 物攻アップ
+    type: passive
+    jp: 30
+    required:
+      - 0
+    only: 両手剣
+  - name: ブラックマインド
+    type: active
+    jp: 28
+    required:
+      - 1
+  - name: 会心アップ
+    type: passive
+    jp: 20
+    only: 双剣
+    required:
+      - 1
+- - name: ブレイブソウル
+    type: active
+    jp: 28
+    required:
+      - 0
+      - 1
+  - name: ケイオスバスター
+    type: active
+    jp: 28
+    required:
+      - 1
+  - name: 物攻アップ
+    type: passive
+    jp: 26
+    required:
+      - 2
+- - null
+  - name: 物攻アップ
+    type: passive
+    jp: 17
+    only: ジョブ
+    required:
+      - 0
+      - 1
+      - 2
+  - null
+- - name: 会心アップ
+    type: passive
+    jp: 16
+    required:
+      - 1
+  - name: ヴィゴラス
+    type: active
+    jp: 23
+    required:
+      - 1
+  - name: 俊敏アップ
+    type: passive
+    jp: 16
+    required:
+      - 1
+- - name: 闇属性攻撃力アップ
+    type: passive
+    jp: 20
+    only: ジョブ
+    required:
+      - 0
+  - null
+  - name: 命中アップ
+    type: passive
+    jp: 16
+    required:
+      - 2
+- - name: ヴォイド
+    type: active
+    jp: 26
+    required:
+      - 0
+  - null
+  - name: アビスストリーム
+    type: active
+    jp: 33
+    required:
+      - 2
