@@ -141,7 +141,14 @@
     only: ジョブ
     required:
       - 0
-  - null
+  - name: 物攻アップ
+    jp: 17
+    type: passive
+    only: ジョブ
+    required:
+      - 0
+      - 1
+      - 2
   - name: 命中アップ
     type: passive
     jp: 16
@@ -157,4 +164,11 @@
     type: active
     jp: 33
     required:
+      - 2
+- - null
+  - name: HPアップ
+    jp: 23
+    type: passive
+    required:
+      - 0
       - 2

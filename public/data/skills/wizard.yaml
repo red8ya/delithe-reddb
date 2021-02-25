@@ -142,7 +142,12 @@
     required:
     - 1
     only: ジョブ
-  - null
+  - name: 魔攻アップ
+    jp: 20
+    type: passive
+    only: ジョブ
+    required:
+      - 1
   - name: 水属性攻撃力アップ
     jp: 20
     type: passive
@@ -156,3 +161,11 @@
     required:
       - 0
       - 2
+  - null
+- - null
+  - name: 魔防アップ
+    jp: 20
+    type: passive
+    required:
+      - 1
+  - null

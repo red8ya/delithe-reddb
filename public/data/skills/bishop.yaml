@@ -120,7 +120,13 @@
     type: active
     required:
     - 0
-  - null
+  - name: 回魔アップ
+    jp: 17
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+      - 2
 - - name: MPアップ
     jp: 12
     type: passive
@@ -148,3 +154,9 @@
       - 0
       - 2
   - null
+- - null
+  - name: MPアップ
+    jp: 23
+    type: passive
+    required:
+      - 1

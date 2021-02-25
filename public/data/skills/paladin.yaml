@@ -138,7 +138,11 @@
     type: passive
     required:
     - 1
-  - null
+  - name: HPアップ
+    jp: 22
+    type: passive
+    required:
+      - 1
   - name: 魔防アップ
     jp: 22
     type: passive
@@ -152,9 +156,15 @@
       - 0
       - 2
   - null
-- - null
+- - name: ヘイトアップ
+    jp: 18
+    type: passive
+    only: ジョブ
+    required:
+      - 1
   - name: HPアップ
     jp: 12
     type: passive
     required:
       - 1
+  - null

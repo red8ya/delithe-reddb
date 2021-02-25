@@ -154,3 +154,15 @@
     required:
     - 2
     only: 斧
+- - name: ヘイトアップ
+    jp: 22
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+  - name: 物攻アップ
+    jp: 18
+    type: passive
+    required:
+      - 1
+      - 2

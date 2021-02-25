@@ -154,3 +154,16 @@
     required:
       - 1
   - null
+- - name: 魔攻アップ
+    jp: 20
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+  - null
+  - name: 物攻アップ
+    jp: 20
+    type: passive
+    only: ジョブ
+    required:
+      - 1

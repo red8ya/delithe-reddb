@@ -143,7 +143,12 @@
     - 1
     - 2
     only: ジョブ
-  - null
+  - name: MPアップ
+    jp: 22
+    type: passive
+    only: ジョブ
+    required:
+      - 2
 - - name: 魔攻アップ
     jp: 17
     type: passive
@@ -155,3 +160,10 @@
     required:
       - 1
   - null
+- - null
+  - name: 命中アップ
+    jp: 18
+    type: passive
+    required:
+      - 0
+      - 1

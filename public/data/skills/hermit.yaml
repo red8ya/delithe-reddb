@@ -22,7 +22,12 @@
     type: passive
     required:
     - 0
-  - null
+  - name: 命中アップ
+    jp: 16
+    type: passive
+    only: ジョブ
+    required:
+      - 1
   - name: ダークネス
     jp: 22
     type: active
@@ -157,3 +162,10 @@
       - 0
       - 2
   - null
+- - null
+  - null
+  - name: 魔攻アップ
+    jp: 24
+    type: passive
+    required:
+      - 1
