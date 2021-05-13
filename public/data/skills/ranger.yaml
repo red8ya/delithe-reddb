@@ -167,3 +167,18 @@
     only: ジョブ
     required:
       - 1
+- - null
+  - name: 命中アップ
+    jp: 25
+    type: passive
+    required:
+      - 1
+  - null
+- - name: 物攻アップ
+    jp: 15
+    type: passive
+    required:
+      - 1
+    only: 槍
+  - null
+  - null

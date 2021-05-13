@@ -163,9 +163,21 @@
       - 2
   - null
 - - null
-  - null
+  - name: MPアップ
+    jp: 24
+    type: passive
+    required:
+      - 1
   - name: 魔攻アップ
     jp: 24
     type: passive
     required:
       - 1
+- - name: 魔攻アップ
+    jp: 16
+    type: passive
+    only: ワンド
+    required:
+      - 1
+  - null
+  - null

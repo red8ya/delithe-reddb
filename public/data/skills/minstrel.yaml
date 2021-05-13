@@ -90,7 +90,7 @@
     type: passive
     required:
     - 1
-    only: 魔導書
+    only: 魔道書
   - name: MPアップ
     jp: 10
     type: passive
@@ -166,4 +166,16 @@
     type: passive
     required:
       - 0
+      - 1
+  - null
+- - name: 魔防アップ
+    jp: 18
+    type: passive
+    only: 魔道書
+    required:
+      - 1
+  - name: 命中アップ
+    jp: 22
+    type: passive
+    required:
       - 1

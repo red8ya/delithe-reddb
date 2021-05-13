@@ -168,3 +168,15 @@
     required:
       - 1
   - null
+- - null
+  - name: 回避アップ
+    jp: 23
+    type: passive
+    required:
+      - 1
+  - name: 魔防アップ
+    jp: 17
+    type: passive
+    required:
+      - 1
+    only: メイス盾

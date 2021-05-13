@@ -167,3 +167,15 @@
     only: ジョブ
     required:
       - 1
+- - name: 魔攻アップ
+    jp: 15
+    type: passive
+    only: 両手杖
+    required:
+      - 0
+  - null
+  - name: 物攻アップ
+    jp: 25
+    type: passive
+    required:
+      - 2

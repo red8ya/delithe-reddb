@@ -172,3 +172,18 @@
     required:
       - 0
       - 2
+  - null
+- - name: 物攻アップ
+    jp: 14
+    type: passive
+    required:
+      - 1
+    only: 両手剣
+  - null
+  - null
+- - null
+  - name: HPアップ
+    jp: 26
+    type: passive
+    required:
+      - 0
