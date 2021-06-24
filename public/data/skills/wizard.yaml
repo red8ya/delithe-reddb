@@ -173,11 +173,23 @@
     type: passive
     required:
       - 1
-  - null
+  - name: 魔防アップ
+    jp: 14
+    type: passive
+    only: 両手杖
+    required:
+      - 1
 - - null
   - name: 魔攻アップ
     jp: 24
     type: passive
     required:
       - 0
+      - 1
+  - null
+- - null
+  - name: グランドメテオ
+    jp: 26
+    type: active
+    required:
       - 1

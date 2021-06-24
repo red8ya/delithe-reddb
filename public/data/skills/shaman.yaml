@@ -1,0 +1,193 @@
+- - null
+  - name: 霊弾
+    type: active
+  - null
+- - null
+  - name: 神霊憑依・黎
+    jp: 12
+    type: active
+    required:
+      - 1
+  - null
+- - name: 命中アップ
+    jp: 11
+    type: passive
+    only: 弓
+    required:
+      - 1
+  - name: 俊敏アップ
+    jp: 14
+    type: passive
+    required:
+      - 1
+  - name: 物防アップ
+    jp: 16
+    type: passive
+    required:
+      - 1
+- - name: 寂光浄土
+    jp: 20
+    type: active
+    required:
+      - 0
+  - name: 命中アップ
+    jp: 15
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+  - name: 精霊追放
+    jp: 21
+    type: active
+    required:
+      - 2
+- - name: 物攻アップ
+    jp: 21
+    type: passive
+    required:
+      - 0
+  - name: MPアップ
+    jp: 19
+    type: passive
+    only: ジョブ
+    required:
+      - 0
+      - 2
+  - name: 回魔アップ
+    jp: 25
+    type: passive
+    required:
+      - 2
+- - name: 霊視
+    jp: 25
+    type: active
+    required:
+      - 1
+  - name: 会心アップ
+    jp: 16
+    type: passive
+    required:
+      - 1
+  - name: 輪廻転生
+    jp: 20
+    type: active
+    required:
+      - 2
+- - name: 会心アップ
+    jp: 25
+    type: passive
+    required:
+      - 0
+  - name: 俊敏アップ
+    jp: 22
+    type: passive
+    required:
+      - 0
+      - 2
+  - name: 回魔アップ
+    jp: 13
+    type: passive
+    only: ケーン
+    required:
+      - 2
+- - name: 神霊憑依・烈
+    jp: 50
+    type: active
+    required:
+      - 1
+  - name: アニマドロップ率アップ
+    jp: 18
+    type: passive
+    required:
+      - 1
+  - name: 神霊憑依・耀
+    jp: 50
+    type: active
+    required:
+      - 1
+- - null
+  - name: 巫術・癒魂
+    jp: 25
+    type: active
+    required:
+      - 0
+      - 2
+  - null
+- - name: 全種族特効アップ
+    jp: 29
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+  - name: 物防アップ
+    jp: 26
+    type: passive
+    required:
+      - 1
+  - name: 全種族耐性アップ
+    jp: 27
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+- - name: 会心アップ
+    jp: 20
+    type: passive
+    only: ジョブ
+    required:
+      - 0
+  - name: 巫術・荒魂
+    jp: 33
+    type: active
+    required:
+      - 1
+  - name: 回魔アップ
+    jp: 21
+    type: passive
+    only: ケーン
+    required:
+      - 2
+- - name: 命中アップ
+    jp: 24
+    type: passive
+    only: 弓
+    required:
+      - 0
+  - null
+  - name: MPアップ
+    jp: 27
+    type: passive
+    required:
+      - 2
+- - null
+  - name: リデューススタビリティ
+    jp: 24
+    type: active
+    required:
+      - 0
+      - 2
+  - null
+- - name: 命中アップ
+    jp: 25
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+  - null
+  - name: 回魔アップ
+    jp: 26
+    type: passive
+    only: ジョブ
+    required:
+      - 1
+- - name: 物攻アップ
+    jp: 30
+    type: passive
+    required:
+      - 0
+  - name: 森羅万象
+    jp: 44
+    type: active
+    required:
+      - 0
+      - 2

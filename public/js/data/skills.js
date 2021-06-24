@@ -6,6 +6,7 @@ import runeknight from '../../data/skills/runeknight.yaml';
 import paladin from '../../data/skills/paladin.yaml';
 import hermit from '../../data/skills/hermit.yaml';
 import darkblade from '../../data/skills/darkblade.yaml';
+import shaman from '../../data/skills/shaman.yaml';
 import minstrel from '../../data/skills/minstrel.yaml';
 
 export const jobNames = {
@@ -17,11 +18,12 @@ export const jobNames = {
   paladin: "パラディン",
   hermit: "ハーミット",
   darkblade: "ダークブレイド",
+  shaman: "シャーマン",
   minstrel: "ミンストレル",
 };
 
-export const jobs = ['knight', 'bishop', 'wizard', 'ranger', 'runeknight', 'paladin', 'hermit', 'darkblade', 'minstrel'];
+export const jobs = ['knight', 'bishop', 'wizard', 'ranger', 'runeknight', 'paladin', 'hermit', 'darkblade', 'shaman', 'minstrel'];
 
-export const skills = { knight, bishop, wizard, ranger, runeknight, paladin, hermit, darkblade, minstrel };
+export const skills = { knight, bishop, wizard, ranger, runeknight, paladin, hermit, darkblade, shaman, minstrel };
 
 export default skills;

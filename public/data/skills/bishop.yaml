@@ -175,4 +175,16 @@
       - 1
     only: メイス盾
   - null
-  - null
+  - name: 回魔アップ
+    jp: 19
+    type: passive
+    only: ケーン
+    required:
+      - 1
+- - null
+  - name: セイクリッドキュア
+    jp: 21
+    type: active
+    required:
+      - 0
+      - 2

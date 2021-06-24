@@ -180,10 +180,23 @@
       - 1
     only: 両手剣
   - null
-  - null
+  - name: 物攻アップ
+    jp: 14
+    type: passive
+    only: 双剣
+    required:
+      - 1
 - - null
   - name: HPアップ
     jp: 26
     type: passive
     required:
       - 0
+  - null
+- - null
+  - name: ゼロディザスター
+    jp: 26
+    type: active
+    required:
+      - 1
+  - null

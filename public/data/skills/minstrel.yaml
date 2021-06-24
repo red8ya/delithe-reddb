@@ -179,3 +179,16 @@
     type: passive
     required:
       - 1
+  - name: 回魔アップ
+    jp: 17
+    type: passive
+    only: ハープ
+    required:
+      - 1
+- - null
+  - name: 神圧のディエス・イレ
+    jp: 23
+    type: active
+    required:
+      - 0
+      - 2

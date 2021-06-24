@@ -90,7 +90,7 @@
     required:
     - 0
     - 2
-    only: 魔導書
+    only: 魔道書
   - name: 魔攻アップ
     jp: 28
     type: passive
@@ -180,4 +180,17 @@
     required:
       - 1
   - null
+  - name: 魔攻アップ
+    jp: 13
+    type: passive
+    only: 魔道書
+    required:
+      - 1
+- - null
+  - name: ダークカタストロフ
+    jp: 27
+    type: active
+    required:
+      - 0
+      - 2
   - null
