@@ -270,7 +270,7 @@ const availableJp = [
   550, // 260
 ];
 
-const jpCap = null;
+const jpCap = 550;
 
 const decodeState = (state, job) => {
   let stateDecoded = parseInt(state).toString(2);
